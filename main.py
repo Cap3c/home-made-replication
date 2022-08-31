@@ -1,5 +1,3 @@
-import datetime
-
 from db_interface.DatabaseODBC import DatabaseODBC
 from user_interface.UI import UI
 from Replication import Replication

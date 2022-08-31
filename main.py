@@ -12,11 +12,10 @@ logging.basicConfig(filename="app.log", filemode='a+', format='%(asctime)s - %(l
                     datefmt='%d-%m-%y %H:%M:%S', level=logging.INFO)
 
 
-def get_dsn(gdr_dsn="gdr"):
+def get_dsn():
     """
-    Get all the names of the availables dsn, except the local one
-    :param gdr_dsn: The local dsn
-    :return: At least 'ODBC Data Sources', and all the other DNSes
+    Get all the names of the availables dsn
+    :return: At least 'ODBC Data Sources', and all the DNSes
     """
     list_dsn = []
     try:
@@ -30,7 +29,7 @@ def get_dsn(gdr_dsn="gdr"):
     try:
         i = 0
         while True:
-            list_dsn.append(winreg.EnumKey(hkey, i))  # Récupére les noms des dsn disponibles
+            list_dsn.append(winreg.EnumKey(hkey, i))  # Récupère les noms des dsn disponibles
             i += 1
     except OSError:
         pass

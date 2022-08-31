@@ -1,18 +1,16 @@
 from tkinter import Tk, Label, Button
 import tkinter.ttk as ttk
 import datetime
+import logging
 
 
 class UI:
     def __init__(self, frame: Tk, list_dsn):
-        print(list_dsn)
+        # print(list_dsn)
         for i in range(5):
             frame.columnconfigure(i, weight=1)
         for i in range(4):
             frame.rowconfigure(i, weight=1)
-
-        frame.geometry("800x600")
-        frame.title("replication")
 
         # Récupération de l'année
         jourmodif1 = int(str(datetime.date.today())[:-6])
@@ -81,3 +79,4 @@ class UI:
 
         # self.connexion = connexion
         self.frame = frame
+        logging.info("Frame initialized")

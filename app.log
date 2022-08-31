@@ -1,0 +1,55 @@
+31-08-22 14:45:53 - INFO - Connected to local base, dns: gdr
+31-08-22 14:45:53 - INFO - Registry opened
+31-08-22 14:45:53 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:45:53 - INFO - Frame initialized
+31-08-22 14:45:53 - INFO - Opened successfully tables.csv
+31-08-22 14:45:53 - INFO - Tkinter app launched
+31-08-22 14:45:57 - ERROR - Date is invalid, default date is 01012020
+31-08-22 14:45:57 - ERROR - Connection to  database failed
+31-08-22 14:46:00 - INFO - App closed
+31-08-22 14:46:09 - INFO - Connected to local base, dns: gdr
+31-08-22 14:46:09 - INFO - Registry opened
+31-08-22 14:46:09 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:46:09 - INFO - Frame initialized
+31-08-22 14:46:09 - INFO - Opened successfully tables.csv
+31-08-22 14:46:09 - INFO - Tkinter app launched
+31-08-22 14:46:11 - ERROR - Date is invalid, default date is 01012020
+31-08-22 14:46:11 - ERROR - Connection to  database failed
+31-08-22 14:46:12 - INFO - App closed
+31-08-22 14:46:46 - INFO - App started
+31-08-22 14:46:47 - INFO - Connected to local base, dns: gdr
+31-08-22 14:46:47 - INFO - Registry opened
+31-08-22 14:46:47 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:46:47 - INFO - Frame initialized
+31-08-22 14:46:47 - INFO - Opened successfully tables.csv
+31-08-22 14:46:47 - INFO - Tkinter app launched
+31-08-22 14:48:31 - INFO - App started
+31-08-22 14:48:31 - INFO - Connected to local base, dns: gdr
+31-08-22 14:48:31 - INFO - Registry opened
+31-08-22 14:48:31 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:48:31 - INFO - Frame initialized
+31-08-22 14:48:31 - INFO - Opened successfully tables.csv
+31-08-22 14:48:31 - INFO - Tkinter app launched
+31-08-22 14:48:38 - CRITICAL - Away cursor instanciation failed: ('HY000', 'Attempt to use a closed connection.')
+31-08-22 14:50:58 - INFO - App started
+31-08-22 14:50:58 - INFO - Connected to local base, dns: gdr
+31-08-22 14:50:58 - INFO - Registry opened
+31-08-22 14:50:58 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:50:58 - INFO - Frame initialized
+31-08-22 14:50:58 - INFO - Opened successfully tables.csv
+31-08-22 14:50:58 - INFO - Tkinter app launched
+31-08-22 14:51:04 - CRITICAL - Away cursor instanciation failed: ('HY000', 'Attempt to use a closed connection.')
+31-08-22 14:54:32 - INFO - App started
+31-08-22 14:54:32 - INFO - Connected to local base, dns: gdr
+31-08-22 14:54:32 - INFO - Registry opened
+31-08-22 14:54:32 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:54:32 - INFO - Frame initialized
+31-08-22 14:54:32 - INFO - Opened successfully tables.csv
+31-08-22 14:54:32 - INFO - Tkinter app launched
+31-08-22 14:55:21 - INFO - App started
+31-08-22 14:55:21 - INFO - Connected to local base, dns: gdr
+31-08-22 14:55:21 - INFO - Registry opened
+31-08-22 14:55:21 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:55:21 - INFO - Frame initialized
+31-08-22 14:55:21 - INFO - Opened successfully tables.csv
+31-08-22 14:55:21 - INFO - Tkinter app launched

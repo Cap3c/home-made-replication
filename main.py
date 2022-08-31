@@ -7,9 +7,8 @@ from tkinter import Tk
 import csv
 import winreg
 import logging
-import globals
 
-logging.basicConfig(filename=globals.LOG_FILE, filemode='a+', format='%(asctime)s - %(levelname)s - %(message)s',
+logging.basicConfig(filename="app.log", filemode='a+', format='%(asctime)s - %(levelname)s - %(message)s',
                     datefmt='%d-%m-%y %H:%M:%S', level=logging.INFO)
 
 

@@ -62,7 +62,7 @@ def command_replicate(table, rows, db, ui):
     if not distant.connect(ui.list_dsn_combo.get()):
         logging.error(f"Connection to {ui.list_dsn_combo.get()} database failed")
     #
-    return Replication().replicate(db, distant.DB, table,
+    return Replication().replicate(db, distant, table,
                                    rows[find_table(table, rows)][1],
                                    date)
 
@@ -88,16 +88,16 @@ def main():
             for row in reader:
                 rows.append(row)
             #
-            [print(r) for r in rows]
-            ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", rows, gdr.DB, ui))
-            ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", rows, gdr.DB, ui))
-            ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", rows, gdr.DB, ui))
-            ui.controle_reg.configure(command=lambda: command_replicate("reglementmultiple", rows, gdr.DB, ui))
-            ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", rows, gdr.DB, ui))
-            ui.controle_monnaie.configure(command=lambda: command_replicate("MonnaieCaisse", rows, gdr.DB, ui))
-            ui.controle_client.configure(command=lambda: command_replicate("Client", rows, gdr.DB, ui))
-            ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", rows, gdr.DB, ui))
-            ui.controle_produit.configure(command=lambda: command_replicate("Produit", rows, gdr.DB, ui))
+            # [print(r) for r in rows]
+            ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", rows, gdr, ui))
+            ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", rows, gdr, ui))
+            ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", rows, gdr, ui))
+            ui.controle_reg.configure(command=lambda: command_replicate("reglementmultiple", rows, gdr, ui))
+            ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", rows, gdr, ui))
+            ui.controle_monnaie.configure(command=lambda: command_replicate("MonnaieCaisse", rows, gdr, ui))
+            ui.controle_client.configure(command=lambda: command_replicate("Client", rows, gdr, ui))
+            ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", rows, gdr, ui))
+            ui.controle_produit.configure(command=lambda: command_replicate("Produit", rows, gdr, ui))
 
             logging.info("Tkinter app launched")
             ui.frame.mainloop()

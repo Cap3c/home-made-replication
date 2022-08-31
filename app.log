@@ -53,3 +53,114 @@
 31-08-22 14:55:21 - INFO - Frame initialized
 31-08-22 14:55:21 - INFO - Opened successfully tables.csv
 31-08-22 14:55:21 - INFO - Tkinter app launched
+31-08-22 14:57:50 - INFO - App started
+31-08-22 14:57:50 - INFO - Connected to local base, dns: gdr
+31-08-22 14:57:51 - INFO - Registry opened
+31-08-22 14:57:51 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:57:51 - INFO - Frame initialized
+31-08-22 14:57:51 - INFO - Opened successfully tables.csv
+31-08-22 14:57:51 - INFO - Tkinter app launched
+31-08-22 14:57:53 - INFO - App started
+31-08-22 14:57:53 - INFO - Connected to local base, dns: gdr
+31-08-22 14:57:53 - INFO - Registry opened
+31-08-22 14:57:53 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:57:53 - INFO - Frame initialized
+31-08-22 14:57:53 - INFO - Opened successfully tables.csv
+31-08-22 14:57:53 - INFO - Tkinter app launched
+31-08-22 14:58:30 - INFO - App started
+31-08-22 14:58:30 - INFO - Connected to local base, dns: gdr
+31-08-22 14:58:30 - INFO - Registry opened
+31-08-22 14:58:30 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 14:58:30 - INFO - Frame initialized
+31-08-22 14:58:30 - INFO - Opened successfully tables.csv
+31-08-22 14:58:30 - INFO - Tkinter app launched
+31-08-22 15:00:03 - INFO - App started
+31-08-22 15:00:03 - INFO - Connected to local base, dns: gdr
+31-08-22 15:00:03 - INFO - Registry opened
+31-08-22 15:00:03 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:00:03 - INFO - Frame initialized
+31-08-22 15:00:03 - INFO - Opened successfully tables.csv
+31-08-22 15:00:03 - INFO - Tkinter app launched
+31-08-22 15:01:18 - INFO - App started
+31-08-22 15:01:18 - INFO - Connected to local base, dns: gdr
+31-08-22 15:01:18 - INFO - Registry opened
+31-08-22 15:01:18 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:01:18 - INFO - Frame initialized
+31-08-22 15:01:18 - INFO - Opened successfully tables.csv
+31-08-22 15:01:18 - INFO - Tkinter app launched
+31-08-22 15:05:09 - INFO - App started
+31-08-22 15:05:09 - INFO - Connected to local base, dns: gdr
+31-08-22 15:05:09 - INFO - Registry opened
+31-08-22 15:05:09 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:05:09 - INFO - Frame initialized
+31-08-22 15:05:09 - INFO - Opened successfully tables.csv
+31-08-22 15:05:09 - INFO - Tkinter app launched
+31-08-22 15:09:47 - INFO - App started
+31-08-22 15:09:48 - INFO - Connected to local base, dns: gdr
+31-08-22 15:09:48 - INFO - Registry opened
+31-08-22 15:09:48 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:09:48 - INFO - Frame initialized
+31-08-22 15:09:48 - INFO - Opened successfully tables.csv
+31-08-22 15:09:48 - INFO - Tkinter app launched
+31-08-22 15:09:55 - ERROR - Selecting the IDs from vente_magasin failed : ('0100', '[0100] Erreur renvoyée par le serveur <127.0.0.1:4900> :\r\nError in the SQL code of <Requete_HyperFile1763307824> query. Unable to initialize the query.\r\nIDArrivage item unknown in  file. Check whether query is consistent with file description.\r\nError detected:\r\nWHERE ( >>>>IDArrivage<<<<  IN ( SELECT IDArrivage\r\n\r\nInformations de débogage :\r\nIEWDSQLSrv=1.12\r\nModule=<WDSQLSrv>\r\nVersion=<25.0.480.1>\r\n\r\n\r\nCode SQL de la requête :\r\nSELECT idvente_magasin  AS idvente_magasin \r\nFROM vente_magasin \r\nWHERE ( IDArrivage  ')
+31-08-22 15:12:53 - INFO - App started
+31-08-22 15:12:53 - INFO - Connected to local base, dns: gdr
+31-08-22 15:12:53 - INFO - Registry opened
+31-08-22 15:12:53 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:12:53 - INFO - Frame initialized
+31-08-22 15:12:53 - INFO - Opened successfully tables.csv
+31-08-22 15:12:53 - INFO - Tkinter app launched
+31-08-22 15:14:35 - INFO - App started
+31-08-22 15:14:35 - INFO - Connected to local base, dns: gdr
+31-08-22 15:14:35 - INFO - Registry opened
+31-08-22 15:14:35 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:14:35 - INFO - Frame initialized
+31-08-22 15:14:35 - INFO - Opened successfully tables.csv
+31-08-22 15:14:35 - INFO - Tkinter app launched
+31-08-22 15:14:36 - INFO - App started
+31-08-22 15:14:36 - INFO - Connected to local base, dns: gdr
+31-08-22 15:14:36 - INFO - Registry opened
+31-08-22 15:14:36 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:14:36 - INFO - Frame initialized
+31-08-22 15:14:36 - INFO - Opened successfully tables.csv
+31-08-22 15:14:36 - INFO - Tkinter app launched
+31-08-22 15:14:42 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 15:14:52 - INFO - IDs selected successfully
+31-08-22 15:14:52 - INFO - Lines selected successfully
+31-08-22 15:14:52 - INFO - All datas inserted successfully
+31-08-22 15:15:00 - INFO - IDs selected successfully
+31-08-22 15:15:00 - INFO - Lines selected successfully
+31-08-22 15:15:01 - INFO - All datas inserted successfully
+31-08-22 15:15:38 - INFO - App started
+31-08-22 15:15:38 - INFO - Connected to local base, dns: gdr
+31-08-22 15:15:38 - INFO - Registry opened
+31-08-22 15:15:38 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:15:38 - INFO - Frame initialized
+31-08-22 15:15:38 - INFO - Opened successfully tables.csv
+31-08-22 15:15:38 - INFO - Tkinter app launched
+31-08-22 15:15:44 - INFO - vente_magasin IDs selected successfully
+31-08-22 15:15:44 - INFO - vente_magasin lines selected successfully
+31-08-22 15:15:44 - INFO - All vente_magasin inserted successfully
+31-08-22 15:15:45 - INFO - lignes_vente IDs selected successfully
+31-08-22 15:15:45 - INFO - lignes_vente lines selected successfully
+31-08-22 15:15:46 - INFO - All lignes_vente inserted successfully
+31-08-22 15:15:46 - INFO - reglementmultiple IDs selected successfully
+31-08-22 15:15:46 - INFO - reglementmultiple lines selected successfully
+31-08-22 15:15:46 - INFO - All reglementmultiple inserted successfully
+31-08-22 15:15:48 - INFO - Caisse IDs selected successfully
+31-08-22 15:15:48 - INFO - Caisse lines selected successfully
+31-08-22 15:15:48 - INFO - All Caisse inserted successfully
+31-08-22 15:15:48 - INFO - Avoir IDs selected successfully
+31-08-22 15:15:48 - INFO - Avoir lines selected successfully
+31-08-22 15:15:48 - INFO - All Avoir inserted successfully
+31-08-22 15:15:49 - INFO - MonnaieCaisse IDs selected successfully
+31-08-22 15:15:49 - INFO - MonnaieCaisse lines selected successfully
+31-08-22 15:15:49 - INFO - All MonnaieCaisse inserted successfully
+31-08-22 15:15:50 - INFO - Produit IDs selected successfully
+31-08-22 15:15:50 - INFO - Produit lines selected successfully
+31-08-22 15:15:50 - INFO - All Produit inserted successfully
+31-08-22 15:15:51 - INFO - Arrivage IDs selected successfully
+31-08-22 15:15:51 - INFO - Arrivage lines selected successfully
+31-08-22 15:15:51 - INFO - All Arrivage inserted successfully
+31-08-22 15:15:52 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 15:16:36 - INFO - App closed

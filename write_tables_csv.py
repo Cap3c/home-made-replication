@@ -9,7 +9,7 @@ if __name__ == "__main__":
         ['Produit',
          "IDproduit,IDEtat_produit,IDCatégorie,IDSous_catégorie,IDFlux,IDSortie,IDSTockage,IDArrivage,IDLot,Désignation,Poids,Commentaire,Volume,Nombre,Etiquette,Niveau_Valorisation,to_char(Date_sortie,'YYYYMMDD'),Prix_Etiquette,hauteur,largeur,Profondeur,DonnéesModèle,IDUnité,Promo,PourcPromo,PrixPromo,PrixUnitCollecte,NumTVA,LBE,PrixUnitaire,PoidsUnitaire,VolumeUnitaire,stocRestant,bGestionLot,to_char(DateLimiteValidité,'YYYMMDD'),to_char(Datelimitedistrib,'YYYYMMDD'),bGestionDates", ],
         ['Arrivage',
-         "IDarrivage ,to_char(Date,'YYYYMMDD'),origine,poids_total,cast(heure as character(5)),idcommune,Nombre,idtournée,volume_total,idclient,Nomposte,idsite", ],
+         "IDArrivage ,to_char(Date,'YYYYMMDD'),origine,poids_total,cast(heure as character(5)),idcommune,Nombre,idtournée,volume_total,idclient,Nomposte,idsite", ],
         ['Client',
          "IDClient,Civilite,Societe,Adresse,Pays,Nomclient,Telephone,EMail,Ville,Mobile,CodePostal,to_char(Saisile,'YYYYMMDD'),to_char(DateModif,'YYYYMMDD'),LivreMemeAdresse,FactureMemeadresse,Prénom,Ref_Magasin,TauxRemise,Mode_Réglement,Ref_collecte,Ref_sortiehorsmag,Habitation,Etage,longitude,latitude,Catégorie,IDGroupe_compte,IDcommune,CompteActif,IDSecteurCollecte,IDCedex,EtatAdhésion,Genre,indice", ],
         [

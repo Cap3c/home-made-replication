@@ -19,6 +19,25 @@ class Replication:
             # seems to work
         return ','.join(lines_sep)
 
+    def where_clause(self, table, lines, date):
+        """
+        Determinates what the where clause to select data after date is composed of
+        :param table: checks if the table is arrivage, the table where we are taking the date from
+        :param lines: if there is no idarrivage field in the lines of the table, there is no Where clause
+        :param date: The minimum date it will selected data from
+        :return: Where clause
+        """
+        # where the table is not arrivage
+        whna = f"WHERE IDArrivage IN (SELECT IDArrivage FROM Arrivage WHERE Date > {date})"
+        # where it is arrivage
+        wha = f"WHERE Date > {date}"
+        # where clause
+        whc = wha if table.lower() == 'arrivage' else whna
+        # In the case where there is not IDArrivage, you selected them all
+        if "idarrivage" not in lines.lower().split(','):
+            whc = ""
+        return whc
+
     def replicate(self, home: DatabaseODBC, away: DatabaseODBC, table, lines: str, date):
         # try connecting to both DBs
         try:
@@ -31,15 +50,8 @@ class Replication:
         except ProgrammingError as PEr:
             logging.critical(f"Away cursor instanciation failed: {PEr}")
             raise PEr
-        # where the table is not arrivage
-        whna = f"WHERE IDArrivage IN (SELECT IDArrivage FROM Arrivage WHERE Date > {date})"
-        # where it is arrivage
-        wha = f"WHERE Date > {date}"
-        # where clause
-        whc = wha if table.lower() == 'arrivage' else whna
-        # In the case where there is not IDArrivage, you selected them all
-        if "idarrivage" not in lines.lower().split(','):
-            whc = ""
+
+        whc = self.where_clause(table, lines, date)
 
         try:
             home_cur.execute(f"SELECT {lines.split(',')[0]} FROM {table} {whc}")

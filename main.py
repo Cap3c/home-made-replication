@@ -86,8 +86,7 @@ def main():
             rows = []
             for row in reader:
                 rows.append(row)
-            #
-            # [print(r) for r in rows]
+            # configuring all the buttons
             ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", rows, gdr, ui))
             ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", rows, gdr, ui))
             ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", rows, gdr, ui))

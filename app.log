@@ -164,3 +164,21 @@
 31-08-22 15:15:51 - INFO - All Arrivage inserted successfully
 31-08-22 15:15:52 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
 31-08-22 15:16:36 - INFO - App closed
+31-08-22 15:27:09 - INFO - App started
+31-08-22 15:27:09 - INFO - Connected to local base, dns: gdr
+31-08-22 15:27:09 - INFO - Registry opened
+31-08-22 15:27:09 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:27:09 - INFO - Frame initialized
+31-08-22 15:27:09 - INFO - Opened successfully tables.csv
+31-08-22 15:27:09 - INFO - Tkinter app launched
+31-08-22 15:27:16 - CRITICAL - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 15:30:39 - INFO - App started
+31-08-22 15:30:39 - INFO - Connected to local base, dns: gdr
+31-08-22 15:30:39 - INFO - Registry opened
+31-08-22 15:30:39 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 15:30:39 - INFO - Frame initialized
+31-08-22 15:30:39 - INFO - Opened successfully tables.csv
+31-08-22 15:30:39 - INFO - Tkinter app launched
+31-08-22 15:30:46 - INFO - vente_magasin IDs selected successfully
+31-08-22 15:30:46 - INFO - vente_magasin lines selected successfully
+31-08-22 15:30:46 - INFO - All vente_magasin inserted successfully

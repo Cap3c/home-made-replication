@@ -2,6 +2,8 @@ from tkinter import Tk, Label, Button
 import tkinter.ttk as ttk
 import datetime
 import logging
+from os import listdir
+from os.path import isfile, join
 
 
 class UI:
@@ -23,6 +25,17 @@ class UI:
         list_dsn_combo = ttk.Combobox(frame, values=list_dsn)
         list_dsn_combo.grid(row=0, column=2)
         self.list_dsn_combo = list_dsn_combo
+
+        versions_label = Label(frame, text="Fichier schéma")
+        versions_label.grid(row=0, column=3)
+        self.versions_label = versions_label
+
+        tables_versions = [f for f in listdir('./') if isfile(join('./', f)) if
+                           f.startswith("tables") and f.endswith(".csv")]
+        # tables_versions = [f.lstrip("tables").rstrip(".csv") for f in tables_versions]
+        versions = ttk.Combobox(frame, values=tables_versions, width=20)
+        versions.grid(row=0, column=4)
+        self.versions = versions
         # sai_dsn=Entry(frame)
         # sai_dsn.grid(row=1,column=1)
         dateanalyse = Label(frame, text="Date de début analyse")

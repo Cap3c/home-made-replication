@@ -52,7 +52,8 @@ def command_replicate(table, rows, db, ui):
     try:
         date = creation_date(ui.jour.get(), ui.mois.get(), ui.annee.get())
     except ValueError as VEr:
-        logging.error(f"Date is invalid, default date is {date}")
+        logging.error(f"Date is invalid, default minimum date is {date}")
+    logging.info(f"Minimum date is {date}")
     # Connection à la base de données distante
     distant = DatabaseODBC()
     if not distant.connect(ui.list_dsn_combo.get()):
@@ -65,6 +66,7 @@ def command_replicate(table, rows, db, ui):
 
 def main():
     file = 'tables.csv'
+    #
     gdr = DatabaseODBC()
     gdr.connect("gdr")
     logging.info("Connected to local base, dns: gdr")
@@ -72,7 +74,7 @@ def main():
     frame = Tk()
     frame.geometry("800x600")
     frame.title("Réplication")
-
+    #
     ui = UI(frame, get_dsn())
     try:
         with open(file, 'r', encoding='windows-1252') as f:

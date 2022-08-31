@@ -182,3 +182,19 @@
 31-08-22 15:30:46 - INFO - vente_magasin IDs selected successfully
 31-08-22 15:30:46 - INFO - vente_magasin lines selected successfully
 31-08-22 15:30:46 - INFO - All vente_magasin inserted successfully
+31-08-22 16:14:15 - INFO - App started
+31-08-22 16:14:15 - INFO - Connected to local base, dns: gdr
+31-08-22 16:14:15 - INFO - Registry opened
+31-08-22 16:14:15 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 16:14:15 - INFO - Frame initialized
+31-08-22 16:14:15 - INFO - Opened successfully tables.csv
+31-08-22 16:14:15 - INFO - Tkinter app launched
+31-08-22 16:14:21 - INFO - App closed
+31-08-22 16:19:42 - INFO - App started
+31-08-22 16:19:42 - INFO - Connected to local base, dns: gdr
+31-08-22 16:19:42 - INFO - Registry opened
+31-08-22 16:19:42 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 16:19:42 - INFO - Frame initialized
+31-08-22 16:19:42 - INFO - Opened successfully tables.csv
+31-08-22 16:19:42 - INFO - Tkinter app launched
+31-08-22 16:19:45 - INFO - App closed

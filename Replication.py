@@ -21,10 +21,10 @@ class Replication:
 
     def where_clause(self, table, lines, date):
         """
-        Determinates what the where clause to select data after date is composed of
+        Determinate what the where clause to select data after date is composed of
         :param table: checks if the table is arrivage, the table where we are taking the date from
         :param lines: if there is no idarrivage field in the lines of the table, there is no Where clause
-        :param date: The minimum date it will selected data from
+        :param date: The minimum date it will select data from
         :return: Where clause
         """
         # where the table is not arrivage
@@ -50,16 +50,16 @@ class Replication:
         except ProgrammingError as PEr:
             logging.critical(f"Away cursor instanciation failed: {PEr}")
             raise PEr
-
+        # determinate where clause
         whc = self.where_clause(table, lines, date)
-
+        # selects all IDs from the local table
         try:
             home_cur.execute(f"SELECT {lines.split(',')[0]} FROM {table} {whc}")
         except Error as Er:
             logging.error(f"Selecting the IDs from {table} failed : {Er}")
             raise Er
         logging.info(f"{table} IDs selected successfully")
-
+        # Selects all data from the away table
         home_ids_fetch = home_cur.fetchall()
         home_ids = [di[0] for di in home_ids_fetch]
         try:
@@ -68,7 +68,7 @@ class Replication:
             logging.error(f"Selecting the lines from {table} failed : {Er}")
             raise Er
         logging.info(f"{table} lines selected successfully")
-
+        # Inserts the data in the local table if the id isn't the one already in
         away_fetch = away_cur.fetchall()
         for m_away in away_fetch:
             if m_away[0] not in home_ids:

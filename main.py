@@ -6,6 +6,10 @@ import csv
 from pypyodbc import Cursor, Connection
 import re
 import winreg
+import logging
+import globals
+
+logging.basicConfig(filename=globals.LOG_FILE, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def get_dsn(gdr_dsn="gdr"):

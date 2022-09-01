@@ -580,3 +580,46 @@
 01-09-22 16:35:21 - INFO - Frame initialized
 01-09-22 16:35:21 - INFO - Tkinter app launched
 01-09-22 16:35:22 - INFO - App closed
+01-09-22 16:45:12 - INFO - App started
+01-09-22 16:45:13 - INFO - Connected to local base, dsn: gdr
+01-09-22 16:45:13 - INFO - Registry opened
+01-09-22 16:45:13 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 16:45:13 - INFO - Frame initialized
+01-09-22 16:45:13 - INFO - Tkinter app launched
+01-09-22 16:45:29 - INFO - Opened successfully tables4.28.csv
+01-09-22 16:45:29 - INFO - Read 9 tables
+01-09-22 16:45:29 - INFO - Minimum date is 31082019
+01-09-22 16:45:29 - INFO - 0 Produit IDs selected successfully
+01-09-22 16:45:29 - INFO - Produit lines selected successfully
+01-09-22 16:45:29 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+01-09-22 16:45:29 - INFO - Minimum date is 31082019
+01-09-22 16:45:29 - INFO - 991 Arrivage IDs selected successfully
+01-09-22 16:45:29 - INFO - Arrivage lines selected successfully
+01-09-22 16:45:29 - INFO - 0 lines in Arrivage inserted successfully over 991 lines, 991 were already present
+01-09-22 16:45:29 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+01-09-22 16:45:30 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - INFO - 394 Caisse IDs selected successfully
+01-09-22 16:45:30 - INFO - Caisse lines selected successfully
+01-09-22 16:45:30 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+01-09-22 16:45:30 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - INFO - 0 Avoir IDs selected successfully
+01-09-22 16:45:30 - INFO - Avoir lines selected successfully
+01-09-22 16:45:30 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+01-09-22 16:45:30 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - INFO - 4 reglementmultiple IDs selected successfully
+01-09-22 16:45:30 - INFO - reglementmultiple lines selected successfully
+01-09-22 16:45:30 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+01-09-22 16:45:30 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - INFO - 56 MonnaieCaisse IDs selected successfully
+01-09-22 16:45:30 - INFO - MonnaieCaisse lines selected successfully
+01-09-22 16:45:30 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+01-09-22 16:45:30 - INFO - Minimum date is 31082019
+01-09-22 16:45:30 - INFO - 4229 vente_magasin IDs selected successfully
+01-09-22 16:45:30 - INFO - vente_magasin lines selected successfully
+01-09-22 16:45:31 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+01-09-22 16:45:31 - INFO - Minimum date is 31082019
+01-09-22 16:45:31 - INFO - 11145 lignes_vente IDs selected successfully
+01-09-22 16:45:31 - INFO - lignes_vente lines selected successfully
+01-09-22 16:45:32 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+01-09-22 16:45:35 - INFO - App closed

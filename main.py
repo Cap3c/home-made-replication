@@ -20,7 +20,7 @@ def get_dsn():
         access_registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
         hkey = winreg.OpenKey(access_registry, r'SOFTWARE\ODBC\ODBC.ini')
     except OSError as OSEr:
-        logging.critical(f"Registery failed to open : {OSEr}")
+        logging.critical(f"Registry failed to open : {OSEr}")
         raise OSEr
     logging.info("Registry opened")
     # if winreg.EnumKey(hkey, i) == gdr_dsn:
@@ -70,7 +70,7 @@ def command_replicate(table, db, ui, file):
     date = creation_date(1, 1, 2020)
     try:
         date = creation_date(ui.jour.get(), ui.mois.get(), ui.annee.get())
-    except ValueError as VEr:
+    except ValueError:
         logging.error(f"Date is invalid, default minimum date is {date}")
     logging.info(f"Minimum date is {date}")
     # Connection à la base de données distante
@@ -84,7 +84,6 @@ def command_replicate(table, db, ui, file):
 
 
 def main():
-    file = 'tables.csv'
     #
     gdr = DatabaseODBC()
     gdr.connect("gdr")
@@ -111,7 +110,7 @@ def main():
     ui.controle_arrivage.configure(
         command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
     ui.controle_produit.configure(
-        command=lambda: command_replicate("Produit", rows, gdr, ui, ui.versions.get()))
+        command=lambda: command_replicate("Produit", gdr, ui, ui.versions.get()))
 
     logging.info("Tkinter app launched")
     ui.frame.mainloop()

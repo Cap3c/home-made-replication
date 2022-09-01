@@ -78,9 +78,12 @@ def command_replicate(table, db, ui, file):
     if not distant.connect(ui.list_dsn_combo.get()):
         logging.error(f"Connection to {ui.list_dsn_combo.get()} database failed")
     #
-    return Replication().replicate(db, distant, table,
-                                   rows[find_table(table, rows)][1],
-                                   date)
+    return Replication(ui).replicate(db, distant, table, rows[find_table(table, rows)][1], date)
+
+
+def replicate_all(db, ui, file):
+    rows = open_csv(file)[0]
+    return [command_replicate(row[0], db, ui, file) for row in rows]
 
 
 def main():
@@ -92,26 +95,21 @@ def main():
     frame = Tk()
     frame.geometry("800x600")
     frame.title("Réplication")
-    #
     ui = UI(frame, get_dsn())
-
+    ui.create_browse_tables()
     # configuring all the buttons
+    """
     ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", gdr, ui, ui.versions.get()))
-    ui.controle_vente.configure(
-        command=lambda: command_replicate("vente_magasin", gdr, ui, ui.versions.get()))
-    ui.controle_ligne.configure(
-        command=lambda: command_replicate("lignes_vente", gdr, ui, ui.versions.get()))
-    ui.controle_reg.configure(
-        command=lambda: command_replicate("reglementmultiple", gdr, ui, ui.versions.get()))
+    ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", gdr, ui, ui.versions.get()))
+    ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", gdr, ui, ui.versions.get()))
+    ui.controle_reg.configure(command=lambda: command_replicate("reglementmultiple", gdr, ui, ui.versions.get()))
     ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", gdr, ui, ui.versions.get()))
-    ui.controle_monnaie.configure(
-        command=lambda: command_replicate("MonnaieCaisse", gdr, ui, ui.versions.get()))
+    ui.controle_monnaie.configure(command=lambda: command_replicate("MonnaieCaisse", gdr, ui, ui.versions.get()))
     ui.controle_client.configure(command=lambda: command_replicate("Client", gdr, ui, ui.versions.get()))
-    ui.controle_arrivage.configure(
-        command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
-    ui.controle_produit.configure(
-        command=lambda: command_replicate("Produit", gdr, ui, ui.versions.get()))
-
+    ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
+    ui.controle_produit.configure(command=lambda: command_replicate("Produit", gdr, ui, ui.versions.get()))
+    """
+    ui.start_rep.configure(command=lambda: replicate_all(gdr, ui, ui.versions.get()))
     logging.info("Tkinter app launched")
     ui.frame.mainloop()
     logging.info("App closed")

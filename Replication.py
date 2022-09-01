@@ -1,12 +1,15 @@
+from tkinter import END
+
 from pypyodbc import Cursor, Connection, ProgrammingError, Error
 from db_interface.DatabaseODBC import DatabaseODBC
+from user_interface.UI import UI
 import re
 import logging
 
 
 class Replication:
-    def __init__(self):
-        pass
+    def __init__(self, ui: UI):
+        self.ui = ui
 
     def strip_sql(self, lines: str):
         lines_sep = lines.split(',')
@@ -57,7 +60,7 @@ class Replication:
             home_cur.execute(f"SELECT {lines.split(',')[0]} FROM {table} {whc}")
         except Error as Er:
             logging.error(f"Selecting the IDs from {table} failed : {Er}")
-            raise Er
+            return Er
         home_ids_fetch = home_cur.fetchall()
         home_ids = [di[0] for di in home_ids_fetch]
         logging.info(f"{len(home_ids)} {table} IDs selected successfully")
@@ -66,7 +69,7 @@ class Replication:
             away_cur.execute(f"SELECT {lines} FROM {table} {whc}")
         except Error as Er:
             logging.error(f"Selecting the lines from {table} failed : {Er}")
-            raise Er
+            return Er
         logging.info(f"{table} lines selected successfully")
         # Inserts the data in the local table if the id isn't the one already in
         away_fetch = away_cur.fetchall()
@@ -81,8 +84,14 @@ class Replication:
                     logging.error(f"Insert into {table} failed at ID {m_away[0]} : {Er}")
             else:
                 ids_present += 1
+        #
+        self.ui.text_tables.configure(state="normal")
+        self.ui.text_tables.insert(END, f"\n{table} inserted")
+        self.ui.text_tables.configure(state="disabled")
+        #
         logging.info(
-            f"{no_lines} lines in {table} inserted successfully over {len(home_ids)} lines, {ids_present} were already present")
+            f"{no_lines} lines in {table} inserted successfully over {len(home_ids)} lines, {ids_present} were "
+            f"already present")
 
         home_cur.commit()
-        home_cur.close()
+        home_cur.close()  # safety mesure

@@ -1,4 +1,4 @@
-from tkinter import Tk, Label, Button
+from tkinter import Tk, Label, Button, Text, END, Scrollbar
 import tkinter.ttk as ttk
 import datetime
 import logging
@@ -9,6 +9,7 @@ from os.path import isfile, join
 class UI:
     def __init__(self, frame: Tk, list_dsn):
         # print(list_dsn)
+
         for i in range(5):
             frame.columnconfigure(i, weight=1)
         for i in range(4):
@@ -54,42 +55,72 @@ class UI:
         annee.grid(row=1, column=4)
         self.annee = annee
 
-        controle_caisse = Button(frame, text="Caisse")
-        controle_caisse.grid(row=3, column=1)
-        self.controle_caisse = controle_caisse
+        self.controle_caisse = None
+        self.controle_vente = None
+        self.controle_ligne = None
+        self.controle_reg = None
+        self.controle_produit = None
+        self.controle_arrivage = None
+        self.controle_client = None
+        self.controle_monnaie = None
+        self.controle_avoir = None
 
-        controle_vente = Button(frame, text="ventes")
-        controle_vente.grid(row=2, column=2)
-        self.controle_vente = controle_vente
-
-        controle_ligne = Button(frame, text="Lignes ventes")
-        controle_ligne.grid(row=2, column=3)
-        self.controle_ligne = controle_ligne
-
-        controle_reg = Button(frame, text="reg multiples")
-        controle_reg.grid(row=2, column=4)
-        self.controle_reg = controle_reg
-
-        controle_avoir = Button(frame, text="avoir")
-        controle_avoir.grid(row=3, column=2)
-        self.controle_avoir = controle_avoir
-
-        controle_monnaie = Button(frame, text="Monnaie caisse")
-        controle_monnaie.grid(row=3, column=3)
-        self.controle_monnaie = controle_monnaie
-
-        controle_client = Button(frame, text="clients")
-        controle_client.grid(row=2, column=1)
-        self.controle_client = controle_client
-
-        controle_arrivage = Button(frame, text="arrivages")
-        controle_arrivage.grid(row=4, column=1)
-        self.controle_arrivage = controle_arrivage
-
-        controle_produit = Button(frame, text="produits")
-        controle_produit.grid(row=4, column=2)
-        self.controle_produit = controle_produit
+        self.start_rep = Button(frame, text="Commencer réplication")
+        text_tables = Text(frame, wrap='word')
+        text_tables.insert(END, '')
+        text_tables.configure(state='disabled')
+        self.text_tables = text_tables
 
         # self.connexion = connexion
         self.frame = frame
         logging.info("Frame initialized")
+
+    def create_line_by_line(self):
+        controle_caisse = Button(self.frame, text="Caisse")
+        controle_caisse.grid(row=3, column=1)
+        self.controle_caisse = controle_caisse
+
+        controle_vente = Button(self.frame, text="ventes")
+        controle_vente.grid(row=2, column=2)
+        self.controle_vente = controle_vente
+
+        controle_ligne = Button(self.frame, text="Lignes ventes")
+        controle_ligne.grid(row=2, column=3)
+        self.controle_ligne = controle_ligne
+
+        controle_reg = Button(self.frame, text="reg multiples")
+        controle_reg.grid(row=2, column=4)
+        self.controle_reg = controle_reg
+
+        controle_avoir = Button(self.frame, text="avoir")
+        controle_avoir.grid(row=3, column=2)
+        self.controle_avoir = controle_avoir
+
+        controle_monnaie = Button(self.frame, text="Monnaie caisse")
+        controle_monnaie.grid(row=3, column=3)
+        self.controle_monnaie = controle_monnaie
+
+        controle_client = Button(self.frame, text="clients")
+        controle_client.grid(row=2, column=1)
+        self.controle_client = controle_client
+
+        controle_arrivage = Button(self.frame, text="arrivages")
+        controle_arrivage.grid(row=4, column=1)
+        self.controle_arrivage = controle_arrivage
+
+        controle_produit = Button(self.frame, text="produits")
+        controle_produit.grid(row=4, column=2)
+        self.controle_produit = controle_produit
+
+    def create_browse_tables(self):
+
+        self.start_rep.grid(row=2, column=0)
+
+        self.text_tables.grid(row=3, column=0, columnspan=5)
+
+        log_scroll = Scrollbar(self.frame, command=self.text_tables.yview)
+        log_scroll.grid(row=2, column=4, sticky='nse')
+        self.text_tables['yscrollcommand'] = log_scroll.set
+
+    def configure_buttons(self):
+        pass

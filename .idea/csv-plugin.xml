@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\tables4.28.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

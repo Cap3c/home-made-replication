@@ -198,3 +198,46 @@
 31-08-22 16:19:42 - INFO - Opened successfully tables.csv
 31-08-22 16:19:42 - INFO - Tkinter app launched
 31-08-22 16:19:45 - INFO - App closed
+31-08-22 16:29:26 - INFO - App started
+31-08-22 16:29:27 - INFO - Connected to local base, dns: gdr
+31-08-22 16:29:27 - INFO - Registry opened
+31-08-22 16:29:27 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 16:29:27 - INFO - Frame initialized
+31-08-22 16:29:27 - INFO - Opened successfully tables.csv
+31-08-22 16:29:27 - INFO - Tkinter app launched
+31-08-22 16:29:28 - ERROR - Date is invalid, default minimum date is 01012020
+31-08-22 16:29:28 - INFO - Minimum date is 01012020
+31-08-22 16:29:28 - ERROR - Connection to  database failed
+31-08-22 16:30:05 - INFO - Minimum date is 05082018
+31-08-22 16:30:05 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 16:40:00 - INFO - App closed
+31-08-22 16:40:02 - INFO - App started
+31-08-22 16:40:03 - INFO - Connected to local base, dns: gdr
+31-08-22 16:40:03 - INFO - Registry opened
+31-08-22 16:40:03 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 16:40:03 - INFO - Frame initialized
+31-08-22 16:40:03 - INFO - Opened successfully tables.csv
+31-08-22 16:40:03 - INFO - Tkinter app launched
+31-08-22 16:40:10 - INFO - Minimum date is 06102017
+31-08-22 16:40:10 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 16:40:14 - INFO - App closed
+31-08-22 16:49:23 - INFO - App started
+31-08-22 16:49:23 - INFO - Connected to local base, dns: gdr
+31-08-22 16:49:23 - INFO - Registry opened
+31-08-22 16:49:23 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 16:49:23 - INFO - Frame initialized
+31-08-22 16:49:23 - INFO - Opened successfully tables.csv
+31-08-22 16:49:23 - INFO - Tkinter app launched
+31-08-22 16:49:30 - INFO - Minimum date is 07092018
+31-08-22 16:49:30 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 16:49:33 - INFO - App closed
+31-08-22 17:01:51 - INFO - App started
+31-08-22 17:01:51 - INFO - Connected to local base, dns: gdr
+31-08-22 17:01:51 - INFO - Registry opened
+31-08-22 17:01:51 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+31-08-22 17:01:51 - INFO - Frame initialized
+31-08-22 17:01:51 - INFO - Opened successfully tables.csv
+31-08-22 17:01:51 - INFO - Tkinter app launched
+31-08-22 17:01:59 - INFO - Minimum date is 08082019
+31-08-22 17:01:59 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+31-08-22 17:02:01 - INFO - App closed

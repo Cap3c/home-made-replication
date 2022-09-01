@@ -78,7 +78,7 @@ def main():
     ui = UI(frame, get_dsn())
     try:
         with open(file, 'r', encoding='windows-1252') as f:
-            logging.info("Opened successfully tables.csv")
+            logging.info(f"Opened successfully {file}")
             # reads the csv
             reader = csv.reader(f)
             header = next(reader)

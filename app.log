@@ -566,3 +566,17 @@
 01-09-22 15:00:32 - INFO - lignes_vente lines selected successfully
 01-09-22 15:00:33 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
 01-09-22 15:00:43 - INFO - App closed
+01-09-22 16:34:52 - INFO - App started
+01-09-22 16:34:52 - INFO - Connected to local base, dns: gdr
+01-09-22 16:34:52 - INFO - Registry opened
+01-09-22 16:34:52 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 16:34:52 - INFO - Frame initialized
+01-09-22 16:34:52 - INFO - Tkinter app launched
+01-09-22 16:34:55 - INFO - App closed
+01-09-22 16:35:21 - INFO - App started
+01-09-22 16:35:21 - INFO - Connected to local base, dsn: gdr
+01-09-22 16:35:21 - INFO - Registry opened
+01-09-22 16:35:21 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 16:35:21 - INFO - Frame initialized
+01-09-22 16:35:21 - INFO - Tkinter app launched
+01-09-22 16:35:22 - INFO - App closed

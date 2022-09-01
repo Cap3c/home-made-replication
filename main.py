@@ -102,10 +102,11 @@ def configure_buttons(btn_str, gdr, ui):
 
 
 def main():
-    #
+    # accessing the local db
+    dsn = "gdr"
     gdr = DatabaseODBC()
-    gdr.connect("gdr")
-    logging.info("Connected to local base, dns: gdr")
+    gdr.connect(dsn)
+    logging.info(f"Connected to local base, dsn: {dsn}")
     # configure frame
     frame = Tk()
     frame.geometry("800x600")

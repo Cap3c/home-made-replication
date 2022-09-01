@@ -1,0 +1,20 @@
+01-09-22 11:57:21 - INFO - App started
+01-09-22 11:57:21 - INFO - Connected to local base, dns: gdr
+01-09-22 11:57:21 - INFO - Registry opened
+01-09-22 11:57:21 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 11:57:21 - INFO - Frame initialized
+01-09-22 11:57:22 - INFO - Tkinter app launched
+01-09-22 11:57:42 - INFO - App closed
+01-09-22 11:57:45 - INFO - App started
+01-09-22 11:57:46 - INFO - Connected to local base, dns: gdr
+01-09-22 11:57:46 - INFO - Registry opened
+01-09-22 11:57:46 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 11:57:46 - INFO - Frame initialized
+01-09-22 11:57:46 - INFO - Tkinter app launched
+01-09-22 11:57:53 - INFO - Opened successfully tables.csv
+01-09-22 11:57:53 - INFO - Read 9 tables
+01-09-22 11:57:53 - INFO - Minimum date is 03062015
+01-09-22 11:57:53 - INFO - 11145 lignes_vente IDs selected successfully
+01-09-22 11:57:53 - INFO - lignes_vente lines selected successfully
+01-09-22 11:57:55 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+01-09-22 11:57:59 - INFO - App closed

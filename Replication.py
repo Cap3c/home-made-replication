@@ -12,12 +12,16 @@ class Replication:
         self.ui = ui
 
     def strip_sql(self, lines: str):
+        """
+        Strips the SQL operations in the string
+        """
         lines_sep = lines.split(',')
         for i, line in enumerate(lines_sep):
             # possible templates
             # to_char(Date_sortie,'YYYYMMDD')
             # cast(heure as character(5))
             lines_sep[i] = re.split(r"[, ]", line.split('(')[1])[0]
+            # can probably be refactoring using a single re.split
             # with the samples it returns ['Date_sortie', "'YYYYMMDD')"] and ['heure', 'as', 'character']
             # seems to work
         return ','.join(lines_sep)
@@ -42,6 +46,14 @@ class Replication:
         return whc
 
     def replicate(self, home: DatabaseODBC, away: DatabaseODBC, table, lines: str, date):
+        """
+        Replicates the away table with its lines into the home table
+        :param home: local db
+        :param away: replicated db
+        :param table: name of the table
+        :param lines: lines containing all the sql operations
+        :param date: Lower limit of the replication
+        """
         # try connecting to both DBs
         try:
             home_cur = home.DB.cursor()

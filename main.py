@@ -35,8 +35,11 @@ def get_dsn():
     return list_dsn
 
 
-def creation_date(jour, mois, an):
-    return f"{int(jour):02}{int(mois):02}{an}"
+def creation_date(day, month, year):
+    """
+    Pads the day and month to respect the DDMMYYYY format
+    """
+    return f"{int(day):02}{int(month):02}{year}"
 
 
 def find_table(table, rows):
@@ -65,8 +68,8 @@ def open_csv(file):
     return rows, header
 
 
-def command_replicate(table, db, ui, file):
-    rows = open_csv(file)[0]
+def command_replicate(table, db, ui, lines):
+    # default date, this allows for a minimum of data filtering
     date = creation_date(1, 1, 2020)
     try:
         date = creation_date(ui.jour.get(), ui.mois.get(), ui.annee.get())
@@ -78,12 +81,19 @@ def command_replicate(table, db, ui, file):
     if not distant.connect(ui.list_dsn_combo.get()):
         logging.error(f"Connection to {ui.list_dsn_combo.get()} database failed")
     #
-    return Replication(ui).replicate(db, distant, table, rows[find_table(table, rows)][1], date)
+    return Replication(ui).replicate(db, distant, table, lines, date)
 
 
 def replicate_all(db, ui, file):
+    """
+    Replicates all the tables from the file into the db
+    :param db: The database the data is replicated in
+    :param ui: The user interface
+    :param file: The file indicating the format of the base
+    """
     rows = open_csv(file)[0]
-    return [command_replicate(row[0], db, ui, file) for row in rows]
+    # lines = rows[find_table(table, rows)][1]
+    return [command_replicate(row[0], db, ui, row[1]) for row in rows]
 
 
 def main():
@@ -109,6 +119,7 @@ def main():
     ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
     ui.controle_produit.configure(command=lambda: command_replicate("Produit", gdr, ui, ui.versions.get()))
     """
+    #
     ui.start_rep.configure(command=lambda: replicate_all(gdr, ui, ui.versions.get()))
     logging.info("Tkinter app launched")
     ui.frame.mainloop()

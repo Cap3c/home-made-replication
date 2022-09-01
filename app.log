@@ -241,3 +241,29 @@
 31-08-22 17:01:59 - INFO - Minimum date is 08082019
 31-08-22 17:01:59 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
 31-08-22 17:02:01 - INFO - App closed
+01-09-22 11:42:40 - INFO - App started
+01-09-22 11:42:41 - INFO - Connected to local base, dns: gdr
+01-09-22 11:42:41 - INFO - Registry opened
+01-09-22 11:42:41 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 11:42:41 - INFO - Frame initialized
+01-09-22 11:42:41 - INFO - Opened successfully tables.csv
+01-09-22 11:42:41 - INFO - Tkinter app launched
+01-09-22 11:42:48 - INFO - Minimum date is 05072017
+01-09-22 11:42:48 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+01-09-22 11:42:53 - INFO - Minimum date is 05072017
+01-09-22 11:42:53 - INFO - 4229 vente_magasin IDs selected successfully
+01-09-22 11:42:53 - INFO - vente_magasin lines selected successfully
+01-09-22 11:42:54 - INFO - 0 vente_magasin inserted successfully over 4229 lines
+01-09-22 11:43:55 - INFO - App started
+01-09-22 11:43:55 - INFO - Connected to local base, dns: gdr
+01-09-22 11:43:55 - INFO - Registry opened
+01-09-22 11:43:55 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 11:43:55 - INFO - Frame initialized
+01-09-22 11:43:55 - INFO - Opened successfully tables.csv
+01-09-22 11:43:55 - INFO - Tkinter app launched
+01-09-22 11:44:02 - INFO - Minimum date is 04062015
+01-09-22 11:44:02 - INFO - 4229 vente_magasin IDs selected successfully
+01-09-22 11:44:02 - INFO - vente_magasin lines selected successfully
+01-09-22 11:44:03 - INFO - 0 vente_magasin inserted successfully over 4229 lines, 4229 were already present
+01-09-22 11:45:24 - INFO - Minimum date is 04062015
+01-09-22 11:45:24 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")

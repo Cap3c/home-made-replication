@@ -58,10 +58,10 @@ class Replication:
         except Error as Er:
             logging.error(f"Selecting the IDs from {table} failed : {Er}")
             raise Er
-        logging.info(f"{table} IDs selected successfully")
-        # Selects all data from the away table
         home_ids_fetch = home_cur.fetchall()
         home_ids = [di[0] for di in home_ids_fetch]
+        logging.info(f"{len(home_ids)} {table} IDs selected successfully")
+        # Selects all data from the away table
         try:
             away_cur.execute(f"SELECT {lines} FROM {table} {whc}")
         except Error as Er:
@@ -70,14 +70,19 @@ class Replication:
         logging.info(f"{table} lines selected successfully")
         # Inserts the data in the local table if the id isn't the one already in
         away_fetch = away_cur.fetchall()
+        no_lines = 0
+        ids_present = 0
         for m_away in away_fetch:
             if m_away[0] not in home_ids:
                 try:
                     home_cur.execute(f"INSERT INTO {table}({self.strip_sql(lines)}) VALUES ({','.join(m_away)})")
+                    no_lines += 1
                 except Error as Er:
                     logging.error(f"Insert into {table} failed at ID {m_away[0]} : {Er}")
-                    raise Er
-        logging.info(f"All {table} inserted successfully")
+            else:
+                ids_present += 1
+        logging.info(
+            f"{no_lines} lines in {table} inserted successfully over {len(home_ids)} lines, {ids_present} were already present")
 
         home_cur.commit()
         home_cur.close()

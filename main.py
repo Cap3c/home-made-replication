@@ -96,6 +96,11 @@ def replicate_all(db, ui, file):
     return [command_replicate(row[0], db, ui, row[1]) for row in rows]
 
 
+def configure_buttons(btn_str, gdr, ui):
+    for btn, table in btn_str.items():
+        btn.configure(command=lambda: command_replicate(table, gdr, ui, ui.versions.get()))
+
+
 def main():
     #
     gdr = DatabaseODBC()
@@ -108,17 +113,18 @@ def main():
     ui = UI(frame, get_dsn())
     ui.create_browse_tables()
     # configuring all the buttons
-    """
-    ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", gdr, ui, ui.versions.get()))
-    ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", gdr, ui, ui.versions.get()))
-    ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", gdr, ui, ui.versions.get()))
-    ui.controle_reg.configure(command=lambda: command_replicate("reglementmultiple", gdr, ui, ui.versions.get()))
-    ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", gdr, ui, ui.versions.get()))
-    ui.controle_monnaie.configure(command=lambda: command_replicate("MonnaieCaisse", gdr, ui, ui.versions.get()))
-    ui.controle_client.configure(command=lambda: command_replicate("Client", gdr, ui, ui.versions.get()))
-    ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
-    ui.controle_produit.configure(command=lambda: command_replicate("Produit", gdr, ui, ui.versions.get()))
-    """
+    btn_name = {
+        ui.controle_caisse: "Caisse",
+        ui.controle_vente: "vente_magasin",
+        ui.controle_ligne: "lignes_vente",
+        ui.controle_reg: "reglementmultiple",
+        ui.controle_avoir: "Avoir",
+        ui.controle_monnaie: "MonnaieCaisse",
+        ui.controle_client: "Client",  # this table is protected by a password, and can't be read
+        ui.controle_arrivage: "Arrivage",
+        ui.controle_produit: "Produit",
+    }
+    # configure_buttons(btn_name, gdr, ui)
     #
     ui.start_rep.configure(command=lambda: replicate_all(gdr, ui, ui.versions.get()))
     logging.info("Tkinter app launched")

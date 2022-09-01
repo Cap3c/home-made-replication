@@ -95,6 +95,3 @@ class UI:
         log_scroll = Scrollbar(self.frame, command=self.text_tables.yview)
         log_scroll.grid(row=2, column=4, sticky='nse')
         self.text_tables['yscrollcommand'] = log_scroll.set
-
-    def configure_buttons(self):
-        pass

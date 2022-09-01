@@ -267,3 +267,22 @@
 01-09-22 11:44:03 - INFO - 0 vente_magasin inserted successfully over 4229 lines, 4229 were already present
 01-09-22 11:45:24 - INFO - Minimum date is 04062015
 01-09-22 11:45:24 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+01-09-22 11:51:48 - INFO - App started
+01-09-22 11:51:48 - INFO - Connected to local base, dns: gdr
+01-09-22 11:51:48 - INFO - Registry opened
+01-09-22 11:51:48 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+01-09-22 11:51:48 - INFO - Frame initialized
+01-09-22 11:51:48 - INFO - Tkinter app launched
+01-09-22 11:51:55 - INFO - Opened successfully tables.csv
+01-09-22 11:51:55 - INFO - Read 9 tables
+01-09-22 11:51:55 - INFO - Minimum date is 05062015
+01-09-22 11:51:55 - INFO - 4229 vente_magasin IDs selected successfully
+01-09-22 11:51:55 - INFO - vente_magasin lines selected successfully
+01-09-22 11:51:55 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+01-09-22 11:52:07 - INFO - Opened successfully tables4.28.csv
+01-09-22 11:52:07 - INFO - Read 9 tables
+01-09-22 11:52:07 - INFO - Minimum date is 05062015
+01-09-22 11:52:08 - INFO - 11145 lignes_vente IDs selected successfully
+01-09-22 11:52:08 - INFO - lignes_vente lines selected successfully
+01-09-22 11:52:09 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+01-09-22 11:52:18 - INFO - App closed

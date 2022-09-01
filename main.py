@@ -47,7 +47,26 @@ def find_table(table, rows):
     raise ValueError(f"{table} is not in list")
 
 
-def command_replicate(table, rows, db, ui):
+def open_csv(file):
+    rows = []
+    header = []
+    try:
+        with open(file, 'r', encoding='windows-1252') as f:
+            logging.info(f"Opened successfully {file}")
+            # reads the csv
+            reader = csv.reader(f)
+            header = next(reader)
+            for row in reader:
+                rows.append(row)
+    except IOError as IOEr:
+        logging.critical(f"{file} failed to open : {IOEr}")
+        raise IOEr
+    logging.info(f"Read {len(rows)} tables")
+    return rows, header
+
+
+def command_replicate(table, db, ui, file):
+    rows = open_csv(file)[0]
     date = creation_date(1, 1, 2020)
     try:
         date = creation_date(ui.jour.get(), ui.mois.get(), ui.annee.get())
@@ -76,32 +95,27 @@ def main():
     frame.title("Réplication")
     #
     ui = UI(frame, get_dsn())
-    try:
-        with open(file, 'r', encoding='windows-1252') as f:
-            logging.info(f"Opened successfully {file}")
-            # reads the csv
-            reader = csv.reader(f)
-            header = next(reader)
-            rows = []
-            for row in reader:
-                rows.append(row)
-            # configuring all the buttons
-            ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", rows, gdr, ui))
-            ui.controle_vente.configure(command=lambda: command_replicate("vente_magasin", rows, gdr, ui))
-            ui.controle_ligne.configure(command=lambda: command_replicate("lignes_vente", rows, gdr, ui))
-            ui.controle_reg.configure(command=lambda: command_replicate("reglementmultiple", rows, gdr, ui))
-            ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", rows, gdr, ui))
-            ui.controle_monnaie.configure(command=lambda: command_replicate("MonnaieCaisse", rows, gdr, ui))
-            ui.controle_client.configure(command=lambda: command_replicate("Client", rows, gdr, ui))
-            ui.controle_arrivage.configure(command=lambda: command_replicate("Arrivage", rows, gdr, ui))
-            ui.controle_produit.configure(command=lambda: command_replicate("Produit", rows, gdr, ui))
 
-            logging.info("Tkinter app launched")
-            ui.frame.mainloop()
-            logging.info("App closed")
-    except IOError as IOEr:
-        logging.critical(f"{file} failed to open : {IOEr}")
-        raise IOEr
+    # configuring all the buttons
+    ui.controle_caisse.configure(command=lambda: command_replicate("Caisse", gdr, ui, ui.versions.get()))
+    ui.controle_vente.configure(
+        command=lambda: command_replicate("vente_magasin", gdr, ui, ui.versions.get()))
+    ui.controle_ligne.configure(
+        command=lambda: command_replicate("lignes_vente", gdr, ui, ui.versions.get()))
+    ui.controle_reg.configure(
+        command=lambda: command_replicate("reglementmultiple", gdr, ui, ui.versions.get()))
+    ui.controle_avoir.configure(command=lambda: command_replicate("Avoir", gdr, ui, ui.versions.get()))
+    ui.controle_monnaie.configure(
+        command=lambda: command_replicate("MonnaieCaisse", gdr, ui, ui.versions.get()))
+    ui.controle_client.configure(command=lambda: command_replicate("Client", gdr, ui, ui.versions.get()))
+    ui.controle_arrivage.configure(
+        command=lambda: command_replicate("Arrivage", gdr, ui, ui.versions.get()))
+    ui.controle_produit.configure(
+        command=lambda: command_replicate("Produit", rows, gdr, ui, ui.versions.get()))
+
+    logging.info("Tkinter app launched")
+    ui.frame.mainloop()
+    logging.info("App closed")
 
 
 if __name__ == "__main__":

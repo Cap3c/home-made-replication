@@ -623,3 +623,573 @@
 01-09-22 16:45:31 - INFO - lignes_vente lines selected successfully
 01-09-22 16:45:32 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
 01-09-22 16:45:35 - INFO - App closed
+06-09-22 16:40:55 - INFO - App started
+06-09-22 16:40:56 - INFO - Connected to local base, dsn: gdr
+06-09-22 16:40:57 - INFO - Registry opened
+06-09-22 16:40:57 - INFO - All DSNs : ['gdr', 'ODBC Data Sources']
+06-09-22 16:40:57 - INFO - Frame initialized
+06-09-22 16:40:57 - INFO - Tkinter app launched
+06-09-22 16:41:05 - INFO - Opened successfully tables.csv
+06-09-22 16:41:05 - INFO - Read 9 tables
+06-09-22 16:41:05 - INFO - Minimum date is 04072015
+06-09-22 16:41:05 - INFO - 0 Produit IDs selected successfully
+06-09-22 16:41:05 - INFO - Produit lines selected successfully
+06-09-22 16:41:05 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+06-09-22 16:41:05 - INFO - Minimum date is 04072015
+06-09-22 16:41:06 - INFO - 991 Arrivage IDs selected successfully
+06-09-22 16:41:06 - INFO - Arrivage lines selected successfully
+06-09-22 16:41:06 - INFO - 0 lines in Arrivage inserted successfully over 991 lines, 991 were already present
+06-09-22 16:41:06 - INFO - Minimum date is 04072015
+06-09-22 16:41:06 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+06-09-22 16:41:06 - INFO - Minimum date is 04072015
+06-09-22 16:41:06 - INFO - 394 Caisse IDs selected successfully
+06-09-22 16:41:06 - INFO - Caisse lines selected successfully
+06-09-22 16:41:06 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+06-09-22 16:41:06 - INFO - Minimum date is 04072015
+06-09-22 16:41:06 - INFO - 0 Avoir IDs selected successfully
+06-09-22 16:41:06 - INFO - Avoir lines selected successfully
+06-09-22 16:41:06 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+06-09-22 16:41:06 - INFO - Minimum date is 04072015
+06-09-22 16:41:06 - INFO - 4 reglementmultiple IDs selected successfully
+06-09-22 16:41:06 - INFO - reglementmultiple lines selected successfully
+06-09-22 16:41:06 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+06-09-22 16:41:06 - INFO - Minimum date is 04072015
+06-09-22 16:41:07 - INFO - 56 MonnaieCaisse IDs selected successfully
+06-09-22 16:41:07 - INFO - MonnaieCaisse lines selected successfully
+06-09-22 16:41:07 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+06-09-22 16:41:07 - INFO - Minimum date is 04072015
+06-09-22 16:41:07 - INFO - 4229 vente_magasin IDs selected successfully
+06-09-22 16:41:07 - INFO - vente_magasin lines selected successfully
+06-09-22 16:41:07 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+06-09-22 16:41:07 - INFO - Minimum date is 04072015
+06-09-22 16:41:07 - INFO - 11145 lignes_vente IDs selected successfully
+06-09-22 16:41:08 - INFO - lignes_vente lines selected successfully
+06-09-22 16:41:09 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+06-09-22 16:41:12 - INFO - App closed
+07-09-22 09:28:07 - INFO - App started
+07-09-22 09:28:08 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:28:08 - INFO - Registry opened
+07-09-22 09:28:08 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:28:08 - INFO - Frame initialized
+07-09-22 09:28:08 - INFO - Tkinter app launched
+07-09-22 09:28:25 - INFO - Opened successfully tables.csv
+07-09-22 09:28:25 - INFO - Read 9 tables
+07-09-22 09:28:25 - INFO - Minimum date is 06082016
+07-09-22 09:28:33 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:28:33 - INFO - Produit lines selected successfully
+07-09-22 09:28:33 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:28:33 - INFO - Minimum date is 06082016
+07-09-22 09:28:42 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:29:45 - INFO - App started
+07-09-22 09:29:45 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:29:45 - INFO - Registry opened
+07-09-22 09:29:45 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:29:45 - INFO - Frame initialized
+07-09-22 09:29:45 - INFO - Tkinter app launched
+07-09-22 09:33:06 - INFO - Opened successfully tables.csv
+07-09-22 09:33:06 - INFO - Read 9 tables
+07-09-22 09:33:06 - INFO - Minimum date is 07102020
+07-09-22 09:33:14 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:33:14 - INFO - Produit lines selected successfully
+07-09-22 09:33:14 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:33:14 - INFO - Minimum date is 07102020
+07-09-22 09:33:22 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:33:22 - INFO - Arrivage lines selected successfully
+07-09-22 09:34:44 - INFO - App started
+07-09-22 09:34:44 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:34:44 - INFO - Registry opened
+07-09-22 09:34:44 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:34:44 - INFO - Frame initialized
+07-09-22 09:34:44 - INFO - Tkinter app launched
+07-09-22 09:34:54 - INFO - Opened successfully tables.csv
+07-09-22 09:34:54 - INFO - Read 9 tables
+07-09-22 09:34:54 - INFO - Minimum date is 07102020
+07-09-22 09:35:03 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:35:03 - INFO - Produit lines selected successfully
+07-09-22 09:35:03 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:35:04 - INFO - Minimum date is 07102020
+07-09-22 09:35:11 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:35:11 - INFO - Arrivage lines selected successfully
+07-09-22 09:35:41 - INFO - App started
+07-09-22 09:35:42 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:35:42 - INFO - Registry opened
+07-09-22 09:35:42 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:35:42 - INFO - Frame initialized
+07-09-22 09:35:42 - INFO - Tkinter app launched
+07-09-22 09:35:51 - INFO - Opened successfully tables4.28.csv
+07-09-22 09:35:51 - INFO - Read 9 tables
+07-09-22 09:35:51 - INFO - Minimum date is 07102019
+07-09-22 09:35:59 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:35:59 - INFO - Produit lines selected successfully
+07-09-22 09:35:59 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:35:59 - INFO - Minimum date is 07102019
+07-09-22 09:36:08 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:36:09 - INFO - Arrivage lines selected successfully
+07-09-22 09:38:25 - INFO - App started
+07-09-22 09:38:25 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:38:25 - INFO - Registry opened
+07-09-22 09:38:25 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:38:25 - INFO - Frame initialized
+07-09-22 09:38:25 - INFO - Tkinter app launched
+07-09-22 09:38:38 - INFO - Opened successfully tables4.28.csv
+07-09-22 09:38:38 - INFO - Read 9 tables
+07-09-22 09:38:38 - INFO - Minimum date is 07072019
+07-09-22 09:38:45 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:38:45 - INFO - Produit lines selected successfully
+07-09-22 09:38:45 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:38:45 - INFO - Minimum date is 07072019
+07-09-22 09:38:54 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:38:54 - INFO - Arrivage lines selected successfully
+07-09-22 09:39:23 - INFO - App started
+07-09-22 09:39:23 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:39:23 - INFO - Registry opened
+07-09-22 09:39:23 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:39:23 - INFO - Frame initialized
+07-09-22 09:39:23 - INFO - Tkinter app launched
+07-09-22 09:39:34 - INFO - Opened successfully tables.csv
+07-09-22 09:39:34 - INFO - Read 9 tables
+07-09-22 09:39:34 - INFO - Minimum date is 07072019
+07-09-22 09:39:42 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:39:42 - INFO - Produit lines selected successfully
+07-09-22 09:39:42 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:39:43 - INFO - Minimum date is 07072019
+07-09-22 09:39:51 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:39:51 - INFO - Arrivage lines selected successfully
+07-09-22 09:40:20 - INFO - App started
+07-09-22 09:40:20 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:40:20 - INFO - Registry opened
+07-09-22 09:40:20 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:40:20 - INFO - Frame initialized
+07-09-22 09:40:20 - INFO - Tkinter app launched
+07-09-22 09:40:32 - INFO - Opened successfully tables.csv
+07-09-22 09:40:32 - INFO - Read 9 tables
+07-09-22 09:40:32 - INFO - Minimum date is 07072019
+07-09-22 09:40:45 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:40:45 - INFO - Produit lines selected successfully
+07-09-22 09:40:45 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:40:45 - INFO - Minimum date is 07072019
+07-09-22 09:40:59 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:40:59 - INFO - Arrivage lines selected successfully
+07-09-22 09:41:58 - INFO - App started
+07-09-22 09:41:58 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:41:58 - INFO - Registry opened
+07-09-22 09:41:58 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:41:58 - INFO - Frame initialized
+07-09-22 09:41:58 - INFO - Tkinter app launched
+07-09-22 09:42:10 - INFO - Opened successfully tables4.28.csv
+07-09-22 09:42:10 - INFO - Read 9 tables
+07-09-22 09:42:10 - INFO - Minimum date is 07072019
+07-09-22 09:42:18 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:42:18 - INFO - Produit lines selected successfully
+07-09-22 09:42:18 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:42:18 - INFO - Minimum date is 07072019
+07-09-22 09:42:26 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:42:26 - INFO - Arrivage lines selected successfully
+07-09-22 09:42:36 - INFO - App started
+07-09-22 09:42:36 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:42:36 - INFO - Registry opened
+07-09-22 09:42:36 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:42:36 - INFO - Frame initialized
+07-09-22 09:42:36 - INFO - Tkinter app launched
+07-09-22 09:42:47 - INFO - Opened successfully tables.csv
+07-09-22 09:42:47 - INFO - Read 9 tables
+07-09-22 09:42:47 - INFO - Minimum date is 07072019
+07-09-22 09:42:57 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:42:57 - INFO - Produit lines selected successfully
+07-09-22 09:42:57 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:42:57 - INFO - Minimum date is 07072019
+07-09-22 09:43:08 - INFO - 991 Arrivage IDs selected successfully
+07-09-22 09:43:09 - INFO - Arrivage lines selected successfully
+07-09-22 09:43:09 - ERROR - Insert into Arrivage failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nLes types des opérandes sont incompatibles avec l'opération <->.\r\nLa première opérande a pour type <>.\r\nLa seconde opérande a pour type <>.\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR")
+07-09-22 09:43:09 - INFO - 0 lines in Arrivage inserted successfully over 991 lines, 991 were already present
+07-09-22 09:43:09 - INFO - Minimum date is 07072019
+07-09-22 09:43:18 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:43:18 - INFO - Minimum date is 07072019
+07-09-22 09:43:21 - INFO - 394 Caisse IDs selected successfully
+07-09-22 09:43:21 - INFO - Caisse lines selected successfully
+07-09-22 09:43:21 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 09:43:21 - INFO - Minimum date is 07072019
+07-09-22 09:43:24 - INFO - 0 Avoir IDs selected successfully
+07-09-22 09:43:24 - INFO - Avoir lines selected successfully
+07-09-22 09:43:24 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 09:43:24 - INFO - Minimum date is 07072019
+07-09-22 09:43:27 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 09:43:27 - INFO - reglementmultiple lines selected successfully
+07-09-22 09:43:27 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 09:43:27 - INFO - Minimum date is 07072019
+07-09-22 09:43:29 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 09:43:29 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 09:43:29 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 09:43:29 - INFO - Minimum date is 07072019
+07-09-22 09:43:32 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 09:43:33 - INFO - vente_magasin lines selected successfully
+07-09-22 09:43:34 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:43:34 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 09:43:34 - INFO - Minimum date is 07072019
+07-09-22 09:43:37 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 09:43:40 - INFO - lignes_vente lines selected successfully
+07-09-22 09:43:42 - ERROR - Insert into lignes_vente failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot = inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:43:42 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+07-09-22 09:46:51 - INFO - App closed
+07-09-22 09:50:09 - INFO - App started
+07-09-22 09:50:10 - INFO - Connected to local base, dsn: gdr
+07-09-22 09:50:10 - INFO - Registry opened
+07-09-22 09:50:10 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 09:50:10 - INFO - Frame initialized
+07-09-22 09:50:10 - INFO - Tkinter app launched
+07-09-22 09:50:24 - INFO - Opened successfully tables.csv
+07-09-22 09:50:24 - INFO - Read 9 tables
+07-09-22 09:50:24 - INFO - Minimum date is 07072019
+07-09-22 09:50:32 - INFO - 0 Produit IDs selected successfully
+07-09-22 09:50:32 - INFO - Produit lines selected successfully
+07-09-22 09:50:32 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 09:50:33 - INFO - Minimum date is 07072019
+07-09-22 09:50:40 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 09:50:40 - INFO - Arrivage lines selected successfully
+07-09-22 09:50:40 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 09:50:40 - INFO - Minimum date is 07072019
+07-09-22 09:50:53 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:50:53 - INFO - Minimum date is 07072019
+07-09-22 09:50:58 - INFO - 394 Caisse IDs selected successfully
+07-09-22 09:50:58 - INFO - Caisse lines selected successfully
+07-09-22 09:50:59 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 09:50:59 - INFO - Minimum date is 07072019
+07-09-22 09:51:01 - INFO - 0 Avoir IDs selected successfully
+07-09-22 09:51:01 - INFO - Avoir lines selected successfully
+07-09-22 09:51:01 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 09:51:01 - INFO - Minimum date is 07072019
+07-09-22 09:51:04 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 09:51:04 - INFO - reglementmultiple lines selected successfully
+07-09-22 09:51:04 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 09:51:04 - INFO - Minimum date is 07072019
+07-09-22 09:51:06 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 09:51:06 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 09:51:06 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 09:51:06 - INFO - Minimum date is 07072019
+07-09-22 09:51:11 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 09:51:12 - INFO - vente_magasin lines selected successfully
+07-09-22 09:51:13 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:51:13 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 09:51:13 - INFO - Minimum date is 07072019
+07-09-22 09:51:16 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 09:51:19 - INFO - lignes_vente lines selected successfully
+07-09-22 09:51:21 - ERROR - Insert into lignes_vente failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot = inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 09:51:21 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+07-09-22 10:04:11 - INFO - App started
+07-09-22 10:04:12 - INFO - Connected to local base, dsn: gdr
+07-09-22 10:04:12 - INFO - Registry opened
+07-09-22 10:04:12 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 10:04:12 - INFO - Frame initialized
+07-09-22 10:04:12 - INFO - Tkinter app launched
+07-09-22 10:05:14 - INFO - Opened successfully tables.csv
+07-09-22 10:05:14 - INFO - Read 9 tables
+07-09-22 10:05:14 - INFO - Minimum date is 07072019
+07-09-22 10:05:22 - INFO - 0 Produit IDs selected successfully
+07-09-22 10:05:22 - INFO - Produit lines selected successfully
+07-09-22 10:05:22 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 10:05:22 - INFO - Minimum date is 07072019
+07-09-22 10:05:30 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 10:05:30 - INFO - Arrivage lines selected successfully
+07-09-22 10:05:30 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 10:05:30 - INFO - Minimum date is 07072019
+07-09-22 10:05:38 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:05:38 - INFO - Minimum date is 07072019
+07-09-22 10:05:41 - INFO - 394 Caisse IDs selected successfully
+07-09-22 10:05:41 - INFO - Caisse lines selected successfully
+07-09-22 10:05:41 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 10:05:41 - INFO - Minimum date is 07072019
+07-09-22 10:05:43 - INFO - 0 Avoir IDs selected successfully
+07-09-22 10:05:43 - INFO - Avoir lines selected successfully
+07-09-22 10:05:43 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 10:05:43 - INFO - Minimum date is 07072019
+07-09-22 10:05:46 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 10:05:46 - INFO - reglementmultiple lines selected successfully
+07-09-22 10:05:46 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 10:05:46 - INFO - Minimum date is 07072019
+07-09-22 10:05:49 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 10:05:49 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 10:05:49 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 10:05:49 - INFO - Minimum date is 07072019
+07-09-22 10:05:52 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 10:05:53 - INFO - vente_magasin lines selected successfully
+07-09-22 10:05:53 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:05:53 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 10:05:53 - INFO - Minimum date is 07072019
+07-09-22 10:05:55 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 10:05:58 - INFO - lignes_vente lines selected successfully
+07-09-22 10:05:59 - ERROR - Insert into lignes_vente failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot = inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:05:59 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+07-09-22 10:07:08 - INFO - App started
+07-09-22 10:07:08 - INFO - Connected to local base, dsn: gdr
+07-09-22 10:07:08 - INFO - Registry opened
+07-09-22 10:07:08 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 10:07:08 - INFO - Frame initialized
+07-09-22 10:07:08 - INFO - Tkinter app launched
+07-09-22 10:07:17 - INFO - Opened successfully tables.csv
+07-09-22 10:07:17 - INFO - Read 9 tables
+07-09-22 10:07:17 - INFO - Minimum date is 07072019
+07-09-22 10:07:29 - INFO - 0 Produit IDs selected successfully
+07-09-22 10:07:29 - INFO - Produit lines selected successfully
+07-09-22 10:07:29 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 10:07:29 - INFO - Minimum date is 07072019
+07-09-22 10:07:36 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 10:07:36 - INFO - Arrivage lines selected successfully
+07-09-22 10:07:36 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 10:07:37 - INFO - Minimum date is 07072019
+07-09-22 10:07:45 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:07:45 - INFO - Minimum date is 07072019
+07-09-22 10:07:47 - INFO - 394 Caisse IDs selected successfully
+07-09-22 10:07:47 - INFO - Caisse lines selected successfully
+07-09-22 10:07:47 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 10:07:47 - INFO - Minimum date is 07072019
+07-09-22 10:07:50 - INFO - 0 Avoir IDs selected successfully
+07-09-22 10:07:50 - INFO - Avoir lines selected successfully
+07-09-22 10:07:50 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 10:07:50 - INFO - Minimum date is 07072019
+07-09-22 10:07:52 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 10:07:52 - INFO - reglementmultiple lines selected successfully
+07-09-22 10:07:52 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 10:07:52 - INFO - Minimum date is 07072019
+07-09-22 10:07:55 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 10:07:55 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 10:07:55 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 10:07:55 - INFO - Minimum date is 07072019
+07-09-22 10:07:58 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 10:08:01 - INFO - vente_magasin lines selected successfully
+07-09-22 10:08:01 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:08:01 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 10:08:01 - INFO - Minimum date is 07072019
+07-09-22 10:08:04 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 10:08:07 - INFO - lignes_vente lines selected successfully
+07-09-22 10:08:08 - ERROR - Insert into lignes_vente failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot = inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:08:08 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+07-09-22 10:11:59 - INFO - App started
+07-09-22 10:11:59 - INFO - Connected to local base, dsn: gdr
+07-09-22 10:11:59 - INFO - Registry opened
+07-09-22 10:11:59 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 10:11:59 - INFO - Frame initialized
+07-09-22 10:11:59 - INFO - Tkinter app launched
+07-09-22 10:12:12 - INFO - Opened successfully tables.csv
+07-09-22 10:12:12 - INFO - Read 9 tables
+07-09-22 10:12:12 - INFO - Minimum date is 07072019
+07-09-22 10:12:50 - INFO - 0 Produit IDs selected successfully
+07-09-22 10:12:50 - INFO - Produit lines selected successfully
+07-09-22 10:12:50 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 10:12:50 - INFO - Minimum date is 07072019
+07-09-22 10:13:18 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 10:13:19 - INFO - Arrivage lines selected successfully
+07-09-22 10:13:19 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 10:13:19 - INFO - Minimum date is 07072019
+07-09-22 10:13:37 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:13:37 - INFO - Minimum date is 07072019
+07-09-22 10:13:40 - INFO - 394 Caisse IDs selected successfully
+07-09-22 10:13:41 - INFO - Caisse lines selected successfully
+07-09-22 10:13:41 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 10:13:41 - INFO - Minimum date is 07072019
+07-09-22 10:13:44 - INFO - 0 Avoir IDs selected successfully
+07-09-22 10:13:44 - INFO - Avoir lines selected successfully
+07-09-22 10:13:44 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 10:13:44 - INFO - Minimum date is 07072019
+07-09-22 10:13:47 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 10:13:47 - INFO - reglementmultiple lines selected successfully
+07-09-22 10:13:47 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 10:13:47 - INFO - Minimum date is 07072019
+07-09-22 10:13:50 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 10:13:50 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 10:13:50 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 10:13:50 - INFO - Minimum date is 07072019
+07-09-22 10:13:54 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 10:13:55 - INFO - vente_magasin lines selected successfully
+07-09-22 10:13:55 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:13:55 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 10:13:55 - INFO - Minimum date is 07072019
+07-09-22 10:13:58 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 10:14:00 - INFO - lignes_vente lines selected successfully
+07-09-22 10:14:01 - ERROR - Insert into lignes_vente failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot = inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:14:01 - INFO - 0 lines in lignes_vente inserted successfully over 11145 lines, 11145 were already present
+07-09-22 10:15:48 - INFO - App started
+07-09-22 10:15:49 - INFO - Connected to local base, dsn: gdr
+07-09-22 10:15:49 - INFO - Registry opened
+07-09-22 10:15:49 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 10:15:49 - INFO - Frame initialized
+07-09-22 10:15:49 - INFO - Tkinter app launched
+07-09-22 10:16:02 - INFO - Opened successfully tables.csv
+07-09-22 10:16:02 - INFO - Read 9 tables
+07-09-22 10:16:02 - INFO - Minimum date is 07072019
+07-09-22 10:16:10 - INFO - 0 Produit IDs selected successfully
+07-09-22 10:16:10 - INFO - Produit lines selected successfully
+07-09-22 10:16:10 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 10:16:10 - INFO - Minimum date is 07072019
+07-09-22 10:16:28 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 10:16:28 - INFO - Arrivage lines selected successfully
+07-09-22 10:16:28 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 10:16:29 - INFO - Minimum date is 07072019
+07-09-22 10:16:47 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:16:47 - INFO - Minimum date is 07072019
+07-09-22 10:17:09 - INFO - 394 Caisse IDs selected successfully
+07-09-22 10:17:09 - INFO - Caisse lines selected successfully
+07-09-22 10:17:09 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 10:17:10 - INFO - Minimum date is 07072019
+07-09-22 10:17:29 - INFO - 0 Avoir IDs selected successfully
+07-09-22 10:17:29 - INFO - Avoir lines selected successfully
+07-09-22 10:17:29 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 10:17:29 - INFO - Minimum date is 07072019
+07-09-22 10:17:46 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 10:17:46 - INFO - reglementmultiple lines selected successfully
+07-09-22 10:17:46 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 10:17:47 - INFO - Minimum date is 07072019
+07-09-22 10:17:58 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 10:17:58 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 10:17:58 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 10:17:58 - INFO - Minimum date is 07072019
+07-09-22 10:18:09 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 10:18:12 - INFO - vente_magasin lines selected successfully
+07-09-22 10:18:13 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nMot FD0D inattendu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.19\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 10:18:13 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 10:18:13 - INFO - Minimum date is 07072019
+07-09-22 10:18:31 - INFO - 11145 lignes_vente IDs selected successfully
+07-09-22 11:10:07 - INFO - App started
+07-09-22 11:10:07 - INFO - Connected to local base, dsn: gdr
+07-09-22 11:10:07 - INFO - Registry opened
+07-09-22 11:10:07 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 11:10:07 - INFO - Frame initialized
+07-09-22 11:10:07 - INFO - Tkinter app launched
+07-09-22 11:10:18 - INFO - Opened successfully tables.csv
+07-09-22 11:10:18 - INFO - Read 9 tables
+07-09-22 11:10:18 - INFO - Minimum date is 07072019
+07-09-22 11:10:26 - INFO - 0 Produit IDs selected successfully
+07-09-22 11:10:26 - INFO - Produit lines selected successfully
+07-09-22 11:10:26 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 11:10:26 - INFO - Minimum date is 07072019
+07-09-22 11:10:36 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 11:10:36 - INFO - Arrivage lines selected successfully
+07-09-22 11:10:36 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 11:10:36 - INFO - Minimum date is 07072019
+07-09-22 11:10:44 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 11:10:44 - INFO - Minimum date is 07072019
+07-09-22 11:10:48 - INFO - 394 Caisse IDs selected successfully
+07-09-22 11:10:48 - INFO - Caisse lines selected successfully
+07-09-22 11:10:48 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 11:10:48 - INFO - Minimum date is 07072019
+07-09-22 11:10:51 - INFO - 0 Avoir IDs selected successfully
+07-09-22 11:10:51 - INFO - Avoir lines selected successfully
+07-09-22 11:10:51 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 11:10:51 - INFO - Minimum date is 07072019
+07-09-22 11:10:53 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 11:10:53 - INFO - reglementmultiple lines selected successfully
+07-09-22 11:10:53 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 11:10:53 - INFO - Minimum date is 07072019
+07-09-22 11:10:57 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 11:10:57 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 11:10:57 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 11:10:57 - INFO - Minimum date is 07072019
+07-09-22 11:11:01 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 11:11:05 - INFO - vente_magasin lines selected successfully
+07-09-22 11:11:05 - ERROR - Insert into vente_magasin failed at ID 1688849860263937 : ('0100', '[0100] Erreur renvoyée par le serveur <127.0.0.1:4900> :\r\nError in the SQL code of <Requete_HyperFile-667691952> query. Unable to initialize the query.\r\nSELAINCOURT item unknown in  file. Check whether query is consistent with file description.\r\nError detected:\r\n20190717,  0,  54170, >>>>SELAINCOURT<<<< ,  1753,  3.6,  0, Espèce\r\n\r\nInformations de débogage :\r\nIEWDSQLSrv=1.12\r\nModule=<WDSQLSrv>\r\nVersion=<25.0.480.1>\r\n\r\n\r\nCode SQL de la requête :\r\nINSERT INTO vente_magasin ( idvente_magasin  , DATE  , idclient  , c')
+07-09-22 11:11:05 - INFO - 0 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 11:11:05 - INFO - Minimum date is 07072019
+07-09-22 11:11:10 - INFO - 11146 lignes_vente IDs selected successfully
+07-09-22 11:11:21 - INFO - lignes_vente lines selected successfully
+07-09-22 11:11:22 - INFO - 0 lines in lignes_vente inserted successfully over 11146 lines, 11146 were already present
+07-09-22 11:16:33 - INFO - App started
+07-09-22 11:16:33 - INFO - Connected to local base, dsn: gdr
+07-09-22 11:16:33 - INFO - Registry opened
+07-09-22 11:16:33 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 11:16:33 - INFO - Frame initialized
+07-09-22 11:16:33 - INFO - Tkinter app launched
+07-09-22 11:16:43 - INFO - Opened successfully tables.csv
+07-09-22 11:16:43 - INFO - Read 9 tables
+07-09-22 11:16:43 - INFO - Minimum date is 07072019
+07-09-22 11:16:51 - INFO - 0 Produit IDs selected successfully
+07-09-22 11:16:51 - INFO - Produit lines selected successfully
+07-09-22 11:16:51 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 11:16:51 - INFO - Minimum date is 07072019
+07-09-22 11:17:00 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 11:17:00 - INFO - Arrivage lines selected successfully
+07-09-22 11:17:00 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 11:17:00 - INFO - Minimum date is 07072019
+07-09-22 11:17:12 - ERROR - Selecting the IDs from Client failed : ('HY09', "[HY09] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale (EL_FATAL)\r\n\r\nDump de l'erreur du module 'WD200SQL64.DLL' (20.0.71.0).\r\nInformations de débogage :\r\nIEWD200SQL=1.21\r\nModule=<WD200SQL>\r\nVersion=<20.0.71.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <\t\t\t")
+07-09-22 11:17:12 - INFO - Minimum date is 07072019
+07-09-22 11:17:18 - INFO - 394 Caisse IDs selected successfully
+07-09-22 11:17:18 - INFO - Caisse lines selected successfully
+07-09-22 11:17:18 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 11:17:18 - INFO - Minimum date is 07072019
+07-09-22 11:17:20 - INFO - 0 Avoir IDs selected successfully
+07-09-22 11:17:20 - INFO - Avoir lines selected successfully
+07-09-22 11:17:20 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 11:17:20 - INFO - Minimum date is 07072019
+07-09-22 11:17:23 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 11:17:23 - INFO - reglementmultiple lines selected successfully
+07-09-22 11:17:23 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 11:17:23 - INFO - Minimum date is 07072019
+07-09-22 11:17:26 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 11:17:26 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 11:17:26 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 11:17:26 - INFO - Minimum date is 07072019
+07-09-22 11:17:29 - INFO - 4229 vente_magasin IDs selected successfully
+07-09-22 11:17:29 - INFO - vente_magasin lines selected successfully
+07-09-22 11:17:30 - INFO - 1 lines in vente_magasin inserted successfully over 4229 lines, 4229 were already present
+07-09-22 11:17:30 - INFO - Minimum date is 07072019
+07-09-22 11:17:32 - INFO - 11146 lignes_vente IDs selected successfully
+07-09-22 11:17:40 - INFO - lignes_vente lines selected successfully
+07-09-22 11:17:41 - INFO - 0 lines in lignes_vente inserted successfully over 11146 lines, 11146 were already present
+07-09-22 11:29:00 - INFO - App started
+07-09-22 11:29:00 - INFO - Registry opened
+07-09-22 11:29:00 - INFO - All DSNs : ['gdr', 'gdr_distant', 'ODBC Data Sources']
+07-09-22 11:29:00 - INFO - Frame initialized
+07-09-22 11:29:00 - INFO - Tkinter app launched
+07-09-22 11:29:12 - INFO - Opened successfully tables.csv
+07-09-22 11:29:12 - INFO - Read 9 tables
+07-09-22 11:29:12 - INFO - Minimum date is 07072019
+07-09-22 11:29:12 - INFO - Connected to gdr
+07-09-22 11:29:20 - INFO - Connected to gdr_distant
+07-09-22 11:29:20 - INFO - 0 Produit IDs selected successfully
+07-09-22 11:29:20 - INFO - Produit lines selected successfully
+07-09-22 11:29:20 - INFO - 0 lines in Produit inserted successfully over 0 lines, 0 were already present
+07-09-22 11:29:21 - INFO - Minimum date is 07072019
+07-09-22 11:29:21 - INFO - Connected to gdr
+07-09-22 11:29:29 - INFO - Connected to gdr_distant
+07-09-22 11:29:29 - INFO - 0 Arrivage IDs selected successfully
+07-09-22 11:29:29 - INFO - Arrivage lines selected successfully
+07-09-22 11:29:29 - INFO - 0 lines in Arrivage inserted successfully over 0 lines, 0 were already present
+07-09-22 11:29:29 - INFO - Minimum date is 07072019
+07-09-22 11:29:29 - INFO - Connected to gdr
+07-09-22 11:29:37 - INFO - Connected to gdr_distant
+07-09-22 11:29:37 - ERROR - Selecting the IDs from Client failed : ('HY090', "[HY090] Que s'est-il passé ?\r\nErreur dans le code SQL de la requête <SQLODBC>. Initialisation de la requête impossible.\r\nFichier Client inconnu\r\nErreur détectée :\r\nSELECT IDClient FROM >>>>Client<<<< \r\n\r\nCode erreur : 28000002\r\nNiveau : erreur fatale\r\n\r\nModule : wd270sql64.dll (01F270057h - 27.0.342.0)\r\n\r\nInformations de débogage :\r\nIEWD270SQL=1.21\r\nModule=<WD270SQL>\r\nVersion=<27.0.342.0>\r\nInformations supplémentaires :\r\nEIT_LOGICALTABLENAME : <Client>\r\nEIT_POSITION_ERREUR : <0\t21\t0\t26>")
+07-09-22 11:29:37 - INFO - Minimum date is 07072019
+07-09-22 11:29:37 - INFO - Connected to gdr
+07-09-22 11:29:40 - INFO - Connected to gdr_distant
+07-09-22 11:29:40 - INFO - 394 Caisse IDs selected successfully
+07-09-22 11:29:40 - INFO - Caisse lines selected successfully
+07-09-22 11:29:40 - INFO - 0 lines in Caisse inserted successfully over 394 lines, 394 were already present
+07-09-22 11:29:40 - INFO - Minimum date is 07072019
+07-09-22 11:29:40 - INFO - Connected to gdr
+07-09-22 11:29:43 - INFO - Connected to gdr_distant
+07-09-22 11:29:43 - INFO - 0 Avoir IDs selected successfully
+07-09-22 11:29:43 - INFO - Avoir lines selected successfully
+07-09-22 11:29:43 - INFO - 0 lines in Avoir inserted successfully over 0 lines, 0 were already present
+07-09-22 11:29:43 - INFO - Minimum date is 07072019
+07-09-22 11:29:44 - INFO - Connected to gdr
+07-09-22 11:29:46 - INFO - Connected to gdr_distant
+07-09-22 11:29:46 - INFO - 4 reglementmultiple IDs selected successfully
+07-09-22 11:29:46 - INFO - reglementmultiple lines selected successfully
+07-09-22 11:29:46 - INFO - 0 lines in reglementmultiple inserted successfully over 4 lines, 4 were already present
+07-09-22 11:29:46 - INFO - Minimum date is 07072019
+07-09-22 11:29:46 - INFO - Connected to gdr
+07-09-22 11:29:49 - INFO - Connected to gdr_distant
+07-09-22 11:29:49 - INFO - 56 MonnaieCaisse IDs selected successfully
+07-09-22 11:29:49 - INFO - MonnaieCaisse lines selected successfully
+07-09-22 11:29:49 - INFO - 0 lines in MonnaieCaisse inserted successfully over 56 lines, 56 were already present
+07-09-22 11:29:50 - INFO - Minimum date is 07072019
+07-09-22 11:29:50 - INFO - Connected to gdr
+07-09-22 11:29:52 - INFO - Connected to gdr_distant
+07-09-22 11:29:52 - INFO - 4230 vente_magasin IDs selected successfully
+07-09-22 11:29:53 - INFO - vente_magasin lines selected successfully
+07-09-22 11:29:53 - INFO - 0 lines in vente_magasin inserted successfully over 4230 lines, 4230 were already present
+07-09-22 11:29:53 - INFO - Minimum date is 07072019
+07-09-22 11:29:53 - INFO - Connected to gdr
+07-09-22 11:30:00 - INFO - Connected to gdr_distant
+07-09-22 11:30:01 - INFO - 11146 lignes_vente IDs selected successfully
+07-09-22 11:30:01 - INFO - lignes_vente lines selected successfully
+07-09-22 11:30:02 - INFO - 0 lines in lignes_vente inserted successfully over 11146 lines, 11146 were already present
+07-09-22 11:31:34 - INFO - App closed

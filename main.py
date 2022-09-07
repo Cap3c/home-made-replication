@@ -68,7 +68,7 @@ def open_csv(file):
     return rows, header
 
 
-def command_replicate(table, db, ui, lines):
+def command_replicate(table, ui, lines):
     # default date, this allows for a minimum of data filtering
     date = creation_date(1, 1, 2020)
     try:
@@ -76,15 +76,22 @@ def command_replicate(table, db, ui, lines):
     except ValueError:
         logging.error(f"Date is invalid, default minimum date is {date}")
     logging.info(f"Minimum date is {date}")
-    # Connection à la base de données distante
+    # Connection à la bdd distante
     distant = DatabaseODBC()
     if not distant.connect(ui.list_dsn_combo.get()):
         logging.error(f"Connection to {ui.list_dsn_combo.get()} database failed")
-    #
-    return Replication(ui).replicate(db, distant, table, lines, date)
+    else:
+        logging.info(f"Connected to {ui.list_dsn_combo.get()}")
+    # Connection à la bdd locale
+    local = DatabaseODBC()
+    if not local.connect(ui.list_dsn_source_combo.get()):
+        logging.error(f"Connection to {ui.list_dsn_source_combo.get()} database failed")
+    else:
+        logging.info(f"Connected to {ui.list_dsn_source_combo.get()}")
+    return Replication(ui).replicate(local, distant, table, lines, date)
 
 
-def replicate_all(db, ui, file):
+def replicate_all(ui, file):
     """
     Replicates all the tables from the file into the db
     :param db: The database the data is replicated in
@@ -93,20 +100,15 @@ def replicate_all(db, ui, file):
     """
     rows = open_csv(file)[0]
     # lines = rows[find_table(table, rows)][1]
-    return [command_replicate(row[0], db, ui, row[1]) for row in rows]
+    return [command_replicate(row[0], ui, row[1]) for row in rows]
 
 
-def configure_buttons(btn_str, gdr, ui):
+def configure_buttons(btn_str, ui):
     for btn, table in btn_str.items():
-        btn.configure(command=lambda: command_replicate(table, gdr, ui, ui.versions.get()))
+        btn.configure(command=lambda: command_replicate(table, ui, ui.versions.get()))
 
 
 def main():
-    # accessing the local db
-    dsn = "gdr"
-    gdr = DatabaseODBC()
-    gdr.connect(dsn)
-    logging.info(f"Connected to local base, dsn: {dsn}")
     # configure frame
     frame = Tk()
     frame.geometry("800x600")
@@ -127,7 +129,7 @@ def main():
     }
     # configure_buttons(btn_name, gdr, ui)
     #
-    ui.start_rep.configure(command=lambda: replicate_all(gdr, ui, ui.versions.get()))
+    ui.start_rep.configure(command=lambda: replicate_all(ui, ui.versions.get()))
     logging.info("Tkinter app launched")
     ui.frame.mainloop()
     logging.info("App closed")

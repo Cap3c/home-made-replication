@@ -17,10 +17,15 @@ class Replication:
         """
         lines_sep = lines.split(',')
         for i, line in enumerate(lines_sep):
+            if line == r"'YYYYMMDD')":
+                lines_sep.pop(i)
             # possible templates
             # to_char(Date_sortie,'YYYYMMDD')
             # cast(heure as character(5))
-            lines_sep[i] = re.split(r"[, ]", line.split('(')[1])[0]
+            try:
+                lines_sep[i] = re.split(r"[, ]", line.split('(')[1])[0]
+            except IndexError:
+                pass
             # can probably be refactoring using a single re.split
             # with the samples it returns ['Date_sortie', "'YYYYMMDD')"] and ['heure', 'as', 'character']
             # seems to work
@@ -44,6 +49,16 @@ class Replication:
         if "idarrivage" not in lines.lower().split(','):
             whc = ""
         return whc
+
+    def escape(self, values, strp_lines):
+        sep_l = strp_lines.split(',')
+        esc = []
+        for i, m in enumerate(values):
+            if sep_l[i].isdigit():
+                esc.append(str(m))
+            else:
+                esc.append(f"\'{m}\'")
+        return esc
 
     def replicate(self, home: DatabaseODBC, away: DatabaseODBC, table, lines: str, date):
         """
@@ -90,7 +105,11 @@ class Replication:
         for m_away in away_fetch:
             if m_away[0] not in home_ids:
                 try:
-                    home_cur.execute(f"INSERT INTO {table}({self.strip_sql(lines)}) VALUES ({','.join(m_away)})")
+                    strp_lines = self.strip_sql(lines)
+                    # print(esc)
+                    # print(','.join(esc))
+                    home_cur.execute(
+                        f"INSERT INTO {table}({strp_lines}) VALUES ({','.join(self.escape(m_away, strp_lines))})")
                     no_lines += 1
                 except Error as Er:
                     logging.error(f"Insert into {table} failed at ID {m_away[0]} : {Er}")

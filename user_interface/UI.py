@@ -19,9 +19,13 @@ class UI:
         jourmodif1 = int(str(datetime.date.today())[:-6])
         jourdebut, moisdebut, anneedebut = list(range(1, 32)), list(range(1, 13)), list(range(2010, jourmodif1 + 1))
 
-        dsn_label = Label(frame, text="choix du dsn distant")
-        dsn_label.grid(row=0, column=1)
+        dsn_label = Label(frame, text="DSN Local/Distant")
+        dsn_label.grid(row=0, column=0)
         self.dsn_label = dsn_label
+
+        list_dsn_source_combo = ttk.Combobox(frame, values=list_dsn)
+        list_dsn_source_combo.grid(row=0, column=1)
+        self.list_dsn_source_combo = list_dsn_source_combo
 
         list_dsn_combo = ttk.Combobox(frame, values=list_dsn)
         list_dsn_combo.grid(row=0, column=2)
@@ -37,8 +41,7 @@ class UI:
         versions = ttk.Combobox(frame, values=tables_versions, width=20)
         versions.grid(row=0, column=4)
         self.versions = versions
-        # sai_dsn=Entry(frame)
-        # sai_dsn.grid(row=1,column=1)
+
         dateanalyse = Label(frame, text="Date de début analyse")
         dateanalyse.grid(row=1, column=1)
         self.dateanalyse = dateanalyse
@@ -89,9 +92,7 @@ class UI:
     def create_browse_tables(self):
 
         self.start_rep.grid(row=2, column=0)
-
         self.text_tables.grid(row=3, column=0, columnspan=5)
-
         log_scroll = Scrollbar(self.frame, command=self.text_tables.yview)
         log_scroll.grid(row=2, column=4, sticky='nse')
         self.text_tables['yscrollcommand'] = log_scroll.set

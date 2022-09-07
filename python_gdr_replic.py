@@ -232,6 +232,8 @@ def lignevente(curdistant, date):
     lignesdistantes = curdistant.fetchall()
     for ld in lignesdistantes:
         if ld[0] not in lignesventeslocales:
+            print(
+                f"{ld[0]},{ld[1]},{ld[2]},{ld[3]},{ld[4]},{ld[5]},{ld[6]},{ld[7]},{ld[8]},{ld[9]},{ld[10]},{ld[11]},{ld[12]},{ld[13]},{ld[14]},{ld[15]},{ld[16]},'{ld[17]}',{ld[18]},{ld[19]},{ld[20]}")
             cursource.execute(
                 f"insert into Lignes_vente(IDLignes_Vente,IDproduit,IDcatégorie,IDSous_catégorie,IDVente_magasin,Montant,Nombre,Poids,Saisie_CatégorieProduit,Volume,Hauteur,Largeur,Profondeur,Tauxremise,Montant_Remise,IDunité,Promo,Signature,Etat,TauxTva,MontantTva) values ({ld[0]},{ld[1]},{ld[2]},{ld[3]},{ld[4]},{ld[5]},{ld[6]},{ld[7]},{ld[8]},{ld[9]},{ld[10]},{ld[11]},{ld[12]},{ld[13]},{ld[14]},{ld[15]},{ld[16]},'{ld[17]}',{ld[18]},{ld[19]},{ld[20]})")
     connsource.commit()
